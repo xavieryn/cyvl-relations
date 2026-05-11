@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useTransition } from 'react';
+import { useEffect, useRef, useState, useTransition } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { allStatuses, STATUS_META } from '@/lib/status';
 import type { DealStatus, TeamMember } from '@/lib/types';
@@ -23,6 +23,26 @@ export default function DealsFilterBar({
   const params = useSearchParams();
   const [pending, startTransition] = useTransition();
   const [open, setOpen] = useState(false);
+  const popoverRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    function onDocMouseDown(e: MouseEvent) {
+      const node = popoverRef.current;
+      if (!node) return;
+      if (e.target instanceof Node && node.contains(e.target)) return;
+      setOpen(false);
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false);
+    }
+    document.addEventListener('mousedown', onDocMouseDown);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onDocMouseDown);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [open]);
 
   const activeStatuses = params.getAll('status') as DealStatus[];
   const activeIndustries = params.getAll('industry');
@@ -70,7 +90,7 @@ export default function DealsFilterBar({
     <div className="sticky top-12 z-10 mb-6 border-b border-white/5 bg-black/70 backdrop-blur">
       <div className="flex flex-wrap items-center gap-3 py-3">
         {/* Filter pill */}
-        <div className="relative">
+        <div ref={popoverRef} className="relative">
           <button
             onClick={() => setOpen((v) => !v)}
             className={`inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm transition ${

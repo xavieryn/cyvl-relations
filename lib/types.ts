@@ -24,6 +24,40 @@ export type TeamMember = {
   avatarUrl?: string;
 };
 
+export type ActivityKind =
+  | 'email'
+  | 'meeting'
+  | 'video-call'
+  | 'phone-call'
+  | 'in-person'
+  | 'note'
+  | 'event';
+
+export type ActivitySentiment = 'positive' | 'neutral' | 'concern';
+
+export type Activity = {
+  id: string;
+  kind: ActivityKind;
+  /** ISO date. Time-of-day optional; defaults to noon if absent. */
+  at: string;
+  /** Primary person this activity is about. */
+  personId: string;
+  /** Organization context, if any. */
+  orgId?: string;
+  /** Internal teammate who logged / participated in the activity. */
+  ownerId?: string;
+  /** Short one-line summary shown in the timeline. */
+  summary: string;
+  /** Optional longer body / preview. */
+  detail?: string;
+  /** Other person IDs that participated (e.g., colleagues, intros). */
+  participantIds?: string[];
+  /** Affective tone, used for accent coloring. */
+  sentiment?: ActivitySentiment;
+  /** For emails. */
+  direction?: 'inbound' | 'outbound';
+};
+
 export type Person = {
   id: string;
   name: string;

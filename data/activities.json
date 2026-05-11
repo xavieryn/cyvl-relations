@@ -1,0 +1,1682 @@
+{
+  "activities": [
+    {
+      "id": "a-0001",
+      "kind": "email",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0009",
+      "kind": "email",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-bea-pixelton",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Sent follow-up on health check",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0040",
+      "kind": "event",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-tess-orbit"
+      ]
+    },
+    {
+      "id": "a-0079",
+      "kind": "video-call",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Video catch-up after vacation",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0105",
+      "kind": "event",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-dax-marble",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0106",
+      "kind": "meeting",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-dax-marble",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Discovery call on priorities review",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-pip-glomwhistle"
+      ]
+    },
+    {
+      "id": "a-0111",
+      "kind": "email",
+      "at": "2026-05-10T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Asked clarifying question on pilot scope",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0031",
+      "kind": "phone-call",
+      "at": "2026-05-09T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Phone catch-up — priorities review",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0023",
+      "kind": "meeting",
+      "at": "2026-05-07T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Working session — QBR prep",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0024",
+      "kind": "event",
+      "at": "2026-05-07T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0120",
+      "kind": "event",
+      "at": "2026-05-07T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0070",
+      "kind": "email",
+      "at": "2026-05-06T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Replied re: data inventory",
+      "sentiment": "positive",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0080",
+      "kind": "meeting",
+      "at": "2026-05-06T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Discovery call on reason for pass",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0015",
+      "kind": "video-call",
+      "at": "2026-05-05T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Recorded demo for kickoff plan",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-mo-fizzlebottom"
+      ]
+    },
+    {
+      "id": "a-0032",
+      "kind": "email",
+      "at": "2026-05-05T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Sent follow-up on budget window",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0047",
+      "kind": "phone-call",
+      "at": "2026-05-05T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Phone catch-up — requirements gathering",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0081",
+      "kind": "email",
+      "at": "2026-05-05T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Sent recap of last call",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0002",
+      "kind": "phone-call",
+      "at": "2026-05-04T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Phone catch-up — renewal timing",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0112",
+      "kind": "phone-call",
+      "at": "2026-05-03T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Quick call to align on pilot scope",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0135",
+      "kind": "email",
+      "at": "2026-05-03T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Sent follow-up on health check",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0025",
+      "kind": "event",
+      "at": "2026-05-02T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Spoke at municipal-AI panel",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0082",
+      "kind": "email",
+      "at": "2026-05-01T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Replied re: future fit",
+      "sentiment": "positive",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0113",
+      "kind": "phone-call",
+      "at": "2026-05-01T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Voicemail; followed up by email",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0121",
+      "kind": "email",
+      "at": "2026-05-01T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Asked clarifying question on contract terms",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0010",
+      "kind": "phone-call",
+      "at": "2026-04-30T12:00:00Z",
+      "personId": "p-bea-pixelton",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Quick call to align on renewal timing",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-rune-quiver"
+      ]
+    },
+    {
+      "id": "a-0071",
+      "kind": "meeting",
+      "at": "2026-04-30T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Discovery call on data inventory",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0072",
+      "kind": "email",
+      "at": "2026-04-29T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0144",
+      "kind": "email",
+      "at": "2026-04-29T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Replied re: stay-in-touch ping",
+      "sentiment": "positive",
+      "direction": "inbound",
+      "participantIds": [
+        "p-tess-orbit"
+      ]
+    },
+    {
+      "id": "a-0091",
+      "kind": "note",
+      "at": "2026-04-28T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Strong reference for the kickoff plan space",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-juno-paradox"
+      ]
+    },
+    {
+      "id": "a-0026",
+      "kind": "phone-call",
+      "at": "2026-04-27T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Quick call to align on QBR prep",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-juno-paradox"
+      ]
+    },
+    {
+      "id": "a-0086",
+      "kind": "email",
+      "at": "2026-04-27T12:00:00Z",
+      "personId": "p-pip-glomwhistle",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0136",
+      "kind": "email",
+      "at": "2026-04-27T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Sent recap of last call",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0061",
+      "kind": "meeting",
+      "at": "2026-04-26T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Working session — integration scope",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-roo-stardust"
+      ]
+    },
+    {
+      "id": "a-0073",
+      "kind": "email",
+      "at": "2026-04-26T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Asked clarifying question on requirements gathering",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0107",
+      "kind": "video-call",
+      "at": "2026-04-26T12:00:00Z",
+      "personId": "p-dax-marble",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Video catch-up after vacation",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0114",
+      "kind": "email",
+      "at": "2026-04-26T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Shared requirements gathering deck",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0016",
+      "kind": "email",
+      "at": "2026-04-24T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Asked clarifying question on risks doc",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0027",
+      "kind": "email",
+      "at": "2026-04-24T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Shared QBR prep deck",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0062",
+      "kind": "email",
+      "at": "2026-04-24T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Sent recap of last call",
+      "sentiment": "neutral",
+      "direction": "outbound",
+      "participantIds": [
+        "p-quill-brackish"
+      ]
+    },
+    {
+      "id": "a-0122",
+      "kind": "email",
+      "at": "2026-04-24T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Sent recap of last call",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0003",
+      "kind": "in-person",
+      "at": "2026-04-23T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Coffee at City of Pixelville",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-juno-paradox"
+      ]
+    },
+    {
+      "id": "a-0055",
+      "kind": "email",
+      "at": "2026-04-22T12:00:00Z",
+      "personId": "p-mo-fizzlebottom",
+      "orgId": "o-north-tinkertown",
+      "ownerId": "t-dana",
+      "summary": "Asked clarifying question on intro pitch",
+      "sentiment": "neutral",
+      "direction": "inbound",
+      "participantIds": [
+        "p-bea-pixelton"
+      ]
+    },
+    {
+      "id": "a-0108",
+      "kind": "email",
+      "at": "2026-04-22T12:00:00Z",
+      "personId": "p-dax-marble",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Sent follow-up on leadership change",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0017",
+      "kind": "video-call",
+      "at": "2026-04-21T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Recorded demo for pilot timeline",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0004",
+      "kind": "note",
+      "at": "2026-04-20T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Strong reference for the renewal timing space",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0087",
+      "kind": "email",
+      "at": "2026-04-20T12:00:00Z",
+      "personId": "p-pip-glomwhistle",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Shared expansion idea deck",
+      "sentiment": "neutral",
+      "direction": "outbound",
+      "participantIds": [
+        "p-sage-pebble"
+      ]
+    },
+    {
+      "id": "a-0128",
+      "kind": "phone-call",
+      "at": "2026-04-20T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Quick call to align on rollout schedule",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0033",
+      "kind": "email",
+      "at": "2026-04-19T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Sent recap of last call",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0098",
+      "kind": "email",
+      "at": "2026-04-19T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Forwarded internal health check thread",
+      "sentiment": "positive",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0041",
+      "kind": "note",
+      "at": "2026-04-18T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Flagged budget concern on legal pass",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0092",
+      "kind": "video-call",
+      "at": "2026-04-18T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Recorded demo for risks doc",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0018",
+      "kind": "video-call",
+      "at": "2026-04-17T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Zoom — quick pilot timeline sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0048",
+      "kind": "email",
+      "at": "2026-04-17T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Sent follow-up on data inventory",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0063",
+      "kind": "meeting",
+      "at": "2026-04-16T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Discovery call on integration scope",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0099",
+      "kind": "meeting",
+      "at": "2026-04-16T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Roadmap sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0042",
+      "kind": "in-person",
+      "at": "2026-04-15T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Dropped by their offices to drop off materials",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0049",
+      "kind": "phone-call",
+      "at": "2026-04-15T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Quick call to align on scoping doc",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0064",
+      "kind": "in-person",
+      "at": "2026-04-15T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Coffee at Demo Dynamics",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-zip-tessellator"
+      ]
+    },
+    {
+      "id": "a-0137",
+      "kind": "email",
+      "at": "2026-04-15T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0005",
+      "kind": "in-person",
+      "at": "2026-04-12T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "On-site visit — renewal timing",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-mox-loopy"
+      ]
+    },
+    {
+      "id": "a-0056",
+      "kind": "email",
+      "at": "2026-04-12T12:00:00Z",
+      "personId": "p-mo-fizzlebottom",
+      "orgId": "o-north-tinkertown",
+      "ownerId": "t-dana",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound",
+      "participantIds": [
+        "p-lark-bandit"
+      ]
+    },
+    {
+      "id": "a-0093",
+      "kind": "email",
+      "at": "2026-04-12T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Asked clarifying question on kickoff plan",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0129",
+      "kind": "event",
+      "at": "2026-04-12T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0145",
+      "kind": "event",
+      "at": "2026-04-12T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Spoke at municipal-AI panel",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0034",
+      "kind": "meeting",
+      "at": "2026-04-11T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Discovery call on budget window",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0035",
+      "kind": "note",
+      "at": "2026-04-10T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Mentioned new champion on their side",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-roo-stardust"
+      ]
+    },
+    {
+      "id": "a-0083",
+      "kind": "event",
+      "at": "2026-04-10T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-mira-cogsworth"
+      ]
+    },
+    {
+      "id": "a-0088",
+      "kind": "in-person",
+      "at": "2026-04-10T12:00:00Z",
+      "personId": "p-pip-glomwhistle",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Lunch — expansion idea",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0100",
+      "kind": "event",
+      "at": "2026-04-10T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0050",
+      "kind": "event",
+      "at": "2026-04-08T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Spoke at municipal-AI panel",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0065",
+      "kind": "email",
+      "at": "2026-04-08T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Forwarded internal rollout schedule thread",
+      "sentiment": "positive",
+      "direction": "inbound",
+      "participantIds": [
+        "p-pip-glomwhistle"
+      ]
+    },
+    {
+      "id": "a-0094",
+      "kind": "email",
+      "at": "2026-04-08T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Shared kickoff plan deck",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0057",
+      "kind": "phone-call",
+      "at": "2026-04-06T12:00:00Z",
+      "personId": "p-mo-fizzlebottom",
+      "orgId": "o-north-tinkertown",
+      "ownerId": "t-dana",
+      "summary": "Voicemail; followed up by email",
+      "sentiment": "concern",
+      "participantIds": [
+        "p-vivi-zenith"
+      ]
+    },
+    {
+      "id": "a-0138",
+      "kind": "phone-call",
+      "at": "2026-04-06T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Phone catch-up — renewal timing",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-otto-bracket"
+      ]
+    },
+    {
+      "id": "a-0019",
+      "kind": "phone-call",
+      "at": "2026-04-05T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Quick call to align on success metrics",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0066",
+      "kind": "phone-call",
+      "at": "2026-04-05T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Voicemail; followed up by email",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0074",
+      "kind": "email",
+      "at": "2026-04-05T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Shared requirements gathering deck",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0036",
+      "kind": "phone-call",
+      "at": "2026-04-04T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Phone catch-up — priorities review",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0043",
+      "kind": "meeting",
+      "at": "2026-04-04T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Discovery call on legal pass",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0067",
+      "kind": "video-call",
+      "at": "2026-04-04T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Zoom — quick training plan sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0139",
+      "kind": "email",
+      "at": "2026-04-04T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Sent follow-up on health check",
+      "sentiment": "neutral",
+      "direction": "outbound",
+      "participantIds": [
+        "p-mo-fizzlebottom"
+      ]
+    },
+    {
+      "id": "a-0130",
+      "kind": "in-person",
+      "at": "2026-04-03T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Dropped by their offices to drop off materials",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0011",
+      "kind": "email",
+      "at": "2026-04-02T12:00:00Z",
+      "personId": "p-bea-pixelton",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Asked clarifying question on QBR prep",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0028",
+      "kind": "note",
+      "at": "2026-04-02T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Flagged budget concern on health check",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0095",
+      "kind": "meeting",
+      "at": "2026-04-02T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Roadmap sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0037",
+      "kind": "email",
+      "at": "2026-04-01T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Replied re: budget window",
+      "sentiment": "positive",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0123",
+      "kind": "note",
+      "at": "2026-04-01T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Mentioned new champion on their side",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0051",
+      "kind": "video-call",
+      "at": "2026-03-31T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Recorded demo for pilot scope",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0052",
+      "kind": "in-person",
+      "at": "2026-03-30T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Lunch — scoping doc",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0131",
+      "kind": "email",
+      "at": "2026-03-30T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Replied re: integration scope",
+      "sentiment": "positive",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0038",
+      "kind": "email",
+      "at": "2026-03-29T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Sent follow-up on budget window",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0124",
+      "kind": "note",
+      "at": "2026-03-29T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Time-zone challenges flagged",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0146",
+      "kind": "video-call",
+      "at": "2026-03-29T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Zoom — quick stay-in-touch ping sync",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-felix-underscore"
+      ]
+    },
+    {
+      "id": "a-0084",
+      "kind": "phone-call",
+      "at": "2026-03-28T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Quick call to align on future fit",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0125",
+      "kind": "phone-call",
+      "at": "2026-03-28T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Voicemail; followed up by email",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0020",
+      "kind": "video-call",
+      "at": "2026-03-27T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Zoom — quick risks doc sync",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-lark-bandit"
+      ]
+    },
+    {
+      "id": "a-0101",
+      "kind": "phone-call",
+      "at": "2026-03-27T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Quick call to align on health check",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0075",
+      "kind": "email",
+      "at": "2026-03-26T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Sent follow-up on pilot scope",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0089",
+      "kind": "email",
+      "at": "2026-03-26T12:00:00Z",
+      "personId": "p-pip-glomwhistle",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Shared expansion idea deck",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0147",
+      "kind": "email",
+      "at": "2026-03-26T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Forwarded internal stay-in-touch ping thread",
+      "sentiment": "positive",
+      "direction": "inbound",
+      "participantIds": [
+        "p-vivi-zenith"
+      ]
+    },
+    {
+      "id": "a-0053",
+      "kind": "in-person",
+      "at": "2026-03-25T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Dropped by their offices to drop off materials",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0115",
+      "kind": "video-call",
+      "at": "2026-03-25T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Zoom — quick scoping doc sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0132",
+      "kind": "phone-call",
+      "at": "2026-03-25T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Quick call to align on rollout schedule",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0058",
+      "kind": "email",
+      "at": "2026-03-24T12:00:00Z",
+      "personId": "p-mo-fizzlebottom",
+      "orgId": "o-north-tinkertown",
+      "ownerId": "t-dana",
+      "summary": "Asked clarifying question on intro pitch",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0085",
+      "kind": "event",
+      "at": "2026-03-24T12:00:00Z",
+      "personId": "p-roo-stardust",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Spoke at municipal-AI panel",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0021",
+      "kind": "email",
+      "at": "2026-03-23T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Forwarded internal success metrics thread",
+      "sentiment": "positive",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0133",
+      "kind": "note",
+      "at": "2026-03-23T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Wants integration scope timing before Q3",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0068",
+      "kind": "note",
+      "at": "2026-03-22T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Time-zone challenges flagged",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0044",
+      "kind": "email",
+      "at": "2026-03-20T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Asked clarifying question on contract terms",
+      "sentiment": "neutral",
+      "direction": "inbound",
+      "participantIds": [
+        "p-dax-marble"
+      ]
+    },
+    {
+      "id": "a-0126",
+      "kind": "in-person",
+      "at": "2026-03-20T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "On-site visit — contract terms",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0006",
+      "kind": "event",
+      "at": "2026-03-19T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-tess-orbit"
+      ]
+    },
+    {
+      "id": "a-0096",
+      "kind": "email",
+      "at": "2026-03-19T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Replied re: pilot timeline",
+      "sentiment": "positive",
+      "direction": "inbound",
+      "participantIds": [
+        "p-sage-pebble"
+      ]
+    },
+    {
+      "id": "a-0116",
+      "kind": "email",
+      "at": "2026-03-19T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Asked clarifying question on data inventory",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0076",
+      "kind": "email",
+      "at": "2026-03-18T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0090",
+      "kind": "video-call",
+      "at": "2026-03-18T12:00:00Z",
+      "personId": "p-pip-glomwhistle",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Recorded demo for expansion idea",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0127",
+      "kind": "email",
+      "at": "2026-03-18T12:00:00Z",
+      "personId": "p-sage-pebble",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0022",
+      "kind": "email",
+      "at": "2026-03-17T12:00:00Z",
+      "personId": "p-quill-brackish",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Sent follow-up on pilot timeline",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0059",
+      "kind": "email",
+      "at": "2026-03-16T12:00:00Z",
+      "personId": "p-mo-fizzlebottom",
+      "orgId": "o-north-tinkertown",
+      "ownerId": "t-dana",
+      "summary": "Sent recap of last call",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0069",
+      "kind": "email",
+      "at": "2026-03-16T12:00:00Z",
+      "personId": "p-juno-paradox",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0140",
+      "kind": "meeting",
+      "at": "2026-03-15T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Stakeholder review of QBR prep",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0039",
+      "kind": "note",
+      "at": "2026-03-13T12:00:00Z",
+      "personId": "p-felix-underscore",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Strong reference for the leadership change space",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-mira-cogsworth"
+      ]
+    },
+    {
+      "id": "a-0012",
+      "kind": "email",
+      "at": "2026-03-12T12:00:00Z",
+      "personId": "p-bea-pixelton",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Shared renewal timing deck",
+      "sentiment": "neutral",
+      "direction": "outbound",
+      "participantIds": [
+        "p-cosmo-nibble"
+      ]
+    },
+    {
+      "id": "a-0077",
+      "kind": "video-call",
+      "at": "2026-03-12T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Video catch-up after vacation",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0029",
+      "kind": "meeting",
+      "at": "2026-03-11T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Discovery call on expansion idea",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0097",
+      "kind": "phone-call",
+      "at": "2026-03-11T12:00:00Z",
+      "personId": "p-cosmo-nibble",
+      "orgId": "o-new-whimsy",
+      "ownerId": "t-dana",
+      "summary": "Voicemail; followed up by email",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0102",
+      "kind": "in-person",
+      "at": "2026-03-10T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "On-site visit — renewal timing",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0007",
+      "kind": "video-call",
+      "at": "2026-03-08T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Google Meet — expansion idea walkthrough",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-quill-brackish"
+      ]
+    },
+    {
+      "id": "a-0109",
+      "kind": "meeting",
+      "at": "2026-03-08T12:00:00Z",
+      "personId": "p-dax-marble",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Discovery call on priorities review",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-bea-pixelton"
+      ]
+    },
+    {
+      "id": "a-0148",
+      "kind": "email",
+      "at": "2026-03-08T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Asked clarifying question on reason for pass",
+      "sentiment": "neutral",
+      "direction": "inbound"
+    },
+    {
+      "id": "a-0045",
+      "kind": "phone-call",
+      "at": "2026-03-06T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Phone catch-up — legal pass",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0110",
+      "kind": "email",
+      "at": "2026-03-06T12:00:00Z",
+      "personId": "p-dax-marble",
+      "orgId": "o-faux-foundation",
+      "ownerId": "t-marcus",
+      "summary": "Asked clarifying question on priorities review",
+      "sentiment": "neutral",
+      "direction": "inbound",
+      "participantIds": [
+        "p-juno-paradox"
+      ]
+    },
+    {
+      "id": "a-0030",
+      "kind": "email",
+      "at": "2026-03-05T12:00:00Z",
+      "personId": "p-mira-cogsworth",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Shared QBR prep deck",
+      "sentiment": "neutral",
+      "direction": "outbound",
+      "participantIds": [
+        "p-felix-underscore"
+      ]
+    },
+    {
+      "id": "a-0054",
+      "kind": "note",
+      "at": "2026-03-04T12:00:00Z",
+      "personId": "p-tibby-quark",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Wants data inventory timing before Q3",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0060",
+      "kind": "video-call",
+      "at": "2026-03-04T12:00:00Z",
+      "personId": "p-mo-fizzlebottom",
+      "orgId": "o-north-tinkertown",
+      "ownerId": "t-dana",
+      "summary": "Recorded demo for use-case fit",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0078",
+      "kind": "email",
+      "at": "2026-03-04T12:00:00Z",
+      "personId": "p-otto-bracket",
+      "orgId": "o-notional-networks",
+      "ownerId": "t-marcus",
+      "summary": "Re-engaged after radio silence",
+      "sentiment": "concern",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0117",
+      "kind": "event",
+      "at": "2026-03-04T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Co-hosted webinar on scoping doc",
+      "sentiment": "positive",
+      "participantIds": [
+        "p-tess-orbit"
+      ]
+    },
+    {
+      "id": "a-0141",
+      "kind": "phone-call",
+      "at": "2026-03-03T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Voicemail; followed up by email",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0149",
+      "kind": "meeting",
+      "at": "2026-03-03T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Discovery call on reason for pass",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0150",
+      "kind": "note",
+      "at": "2026-03-03T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Flagged budget concern on post-mortem",
+      "sentiment": "concern"
+    },
+    {
+      "id": "a-0013",
+      "kind": "meeting",
+      "at": "2026-03-02T12:00:00Z",
+      "personId": "p-bea-pixelton",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Roadmap sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0103",
+      "kind": "email",
+      "at": "2026-03-02T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Sent follow-up on health check",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0014",
+      "kind": "video-call",
+      "at": "2026-03-01T12:00:00Z",
+      "personId": "p-bea-pixelton",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Zoom — quick renewal timing sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0118",
+      "kind": "email",
+      "at": "2026-03-01T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Sent follow-up on requirements gathering",
+      "sentiment": "neutral",
+      "direction": "outbound"
+    },
+    {
+      "id": "a-0142",
+      "kind": "phone-call",
+      "at": "2026-02-28T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Quick call to align on renewal timing",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0151",
+      "kind": "meeting",
+      "at": "2026-02-28T12:00:00Z",
+      "personId": "p-lark-bandit",
+      "orgId": "o-mockingbird-strategies",
+      "ownerId": "t-dana",
+      "summary": "Roadmap sync",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-sage-pebble"
+      ]
+    },
+    {
+      "id": "a-0046",
+      "kind": "video-call",
+      "at": "2026-02-27T12:00:00Z",
+      "personId": "p-wren-hashbrown",
+      "orgId": "o-imaginary-insights",
+      "ownerId": "t-self",
+      "summary": "Recorded demo for pricing model",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0134",
+      "kind": "video-call",
+      "at": "2026-02-26T12:00:00Z",
+      "personId": "p-rune-quiver",
+      "orgId": "o-demo-dynamics",
+      "ownerId": "t-dana",
+      "summary": "Google Meet — kickoff plan walkthrough",
+      "sentiment": "positive"
+    },
+    {
+      "id": "a-0143",
+      "kind": "video-call",
+      "at": "2026-02-26T12:00:00Z",
+      "personId": "p-mox-loopy",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Zoom — quick renewal timing sync",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "a-0008",
+      "kind": "video-call",
+      "at": "2026-02-25T12:00:00Z",
+      "personId": "p-zip-tessellator",
+      "orgId": "o-pixelville",
+      "ownerId": "t-self",
+      "summary": "Zoom — quick expansion idea sync",
+      "sentiment": "neutral",
+      "participantIds": [
+        "p-mox-loopy"
+      ]
+    },
+    {
+      "id": "a-0104",
+      "kind": "email",
+      "at": "2026-02-25T12:00:00Z",
+      "personId": "p-tess-orbit",
+      "orgId": "o-pretendo-civic",
+      "ownerId": "t-self",
+      "summary": "Asked clarifying question on QBR prep",
+      "sentiment": "neutral",
+      "direction": "inbound",
+      "participantIds": [
+        "p-cosmo-nibble"
+      ]
+    },
+    {
+      "id": "a-0119",
+      "kind": "event",
+      "at": "2026-02-25T12:00:00Z",
+      "personId": "p-vivi-zenith",
+      "orgId": "o-east-sproutdale",
+      "ownerId": "t-marcus",
+      "summary": "Spotted at Civic-Tech Summit",
+      "sentiment": "neutral"
+    }
+  ]
+}

@@ -5,11 +5,14 @@ import {
   getPerson,
   neighbors,
 } from '@/lib/graph';
+import { activitiesForOrg, computeStats } from '@/lib/activities';
 import EntityLink from '@/components/EntityLink';
 import EntityLinks from '@/components/EntityLinks';
 import Badge from '@/components/Badge';
 import Avatar from '@/components/Avatar';
 import EdgeChip from '@/components/EdgeChip';
+import ActivityTimeline from '@/components/ActivityTimeline';
+import ActivityStatsCard from '@/components/ActivityStats';
 
 export const dynamicParams = false;
 
@@ -25,6 +28,8 @@ export default async function OrgPage({ params }: PageProps) {
   if (!org) notFound();
 
   const connections = neighbors(org.id);
+  const activities = activitiesForOrg(org.id);
+  const stats = computeStats(activities);
 
   return (
     <main className="relative z-10">
@@ -53,6 +58,23 @@ export default async function OrgPage({ params }: PageProps) {
       </div>
 
       <div className="mx-auto w-full max-w-5xl px-6 py-10 text-white">
+        {activities.length > 0 && (
+          <section className="mb-10">
+            <div className="mb-4 flex items-baseline justify-between">
+              <h2 className="text-sm font-semibold uppercase tracking-wider text-white/50">
+                Activity &amp; Relationship
+              </h2>
+              <span className="text-[11px] text-white/35">
+                Fictional activity for demo
+              </span>
+            </div>
+            <div className="mb-5">
+              <ActivityStatsCard stats={stats} />
+            </div>
+            <ActivityTimeline activities={activities} />
+          </section>
+        )}
+
         {connections.length > 0 && (
           <section>
             <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white/50">
