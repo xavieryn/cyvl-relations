@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <NetworkBackground />
-      <main className="relative z-10 flex min-h-[calc(100vh-49px)] flex-col items-center justify-center px-6 text-center text-white">
+      <main className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center text-white">
         <div className="pointer-events-none absolute left-1/2 top-1/3 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#daff00]/10 blur-3xl" />
 
         <div className="relative">

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import TopNav from "@/components/TopNav";
-import Footer from "@/components/Footer";
+import ConditionalShell from "@/components/ConditionalShell";
+import { computeNotifications } from "@/lib/notifications";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,15 +24,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const notifications = computeNotifications();
+
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <TopNav />
-        <div className="flex-1">{children}</div>
-        <Footer />
+      <body className="min-h-full">
+        <ConditionalShell notifications={notifications}>
+          {children}
+        </ConditionalShell>
       </body>
     </html>
   );
