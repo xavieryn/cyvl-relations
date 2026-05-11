@@ -14,7 +14,8 @@ export default function Page() {
         </p>
         <Link
           href="/search"
-          className="mt-10 inline-flex items-center rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-medium text-white transition hover:border-white/60 hover:bg-white/20"
+          className="mt-10 inline-flex items-center rounded-full bg-[#daff00] px-6 py-3 text-sm font-semibold text-black transition hover:bg-[#c8f135]"
+          style={{ borderRadius: '48px' }}
         >
           Explore the graph →
         </Link>

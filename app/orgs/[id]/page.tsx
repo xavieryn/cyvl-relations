@@ -6,6 +6,8 @@ import {
   neighbors,
 } from '@/lib/graph';
 import EntityLink from '@/components/EntityLink';
+import EntityLinks from '@/components/EntityLinks';
+import Badge from '@/components/Badge';
 
 export const dynamicParams = false;
 
@@ -24,11 +26,21 @@ export default async function OrgPage({ params }: PageProps) {
 
   return (
     <main className="relative z-10 mx-auto w-full max-w-5xl px-6 py-12 text-white">
-      <h1 className="text-4xl font-semibold tracking-tight">{org.name}</h1>
-      <p className="mt-2 capitalize text-white/70">{org.kind}</p>
+      <div className="border-l-2 border-[#ff9e2c] pl-5">
+        <Badge kind="org" label={`Organization · ${org.kind}`} />
+        <h1 className="mt-3 text-4xl font-semibold tracking-tight">{org.name}</h1>
+      </div>
+
+      {org.description && (
+        <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/80">
+          {org.description}
+        </p>
+      )}
+
+      <EntityLinks website={org.website} linkedin={org.linkedin} />
 
       {connections.length > 0 && (
-        <section className="mt-10">
+        <section className="mt-12">
           <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white/50">
             Connections
           </h2>

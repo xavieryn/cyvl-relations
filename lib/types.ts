@@ -12,12 +12,18 @@ export type Person = {
   name: string;
   role?: string;
   orgIds: string[];
+  description?: string;
+  website?: string;
+  linkedin?: string;
 };
 
 export type Organization = {
   id: string;
   name: string;
   kind: OrgKind;
+  description?: string;
+  website?: string;
+  linkedin?: string;
 };
 
 export type Edge = {

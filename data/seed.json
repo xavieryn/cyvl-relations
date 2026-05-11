@@ -1,37 +1,267 @@
 {
   "orgs": [
-    { "id": "o-pixelville", "name": "City of Pixelville", "kind": "city" },
-    { "id": "o-new-whimsy", "name": "City of New Whimsy", "kind": "city" },
-    { "id": "o-east-sproutdale", "name": "City of East Sproutdale", "kind": "city" },
-    { "id": "o-north-tinkertown", "name": "Town of North Tinkertown", "kind": "city" },
-    { "id": "o-pretendo-civic", "name": "Pretendo Civic Co.", "kind": "company" },
-    { "id": "o-faux-foundation", "name": "Faux Foundation", "kind": "nonprofit" },
-    { "id": "o-imaginary-insights", "name": "Imaginary Insights LLC", "kind": "company" },
-    { "id": "o-demo-dynamics", "name": "Demo Dynamics", "kind": "company" },
-    { "id": "o-notional-networks", "name": "Notional Networks", "kind": "nonprofit" },
-    { "id": "o-mockingbird-strategies", "name": "Mockingbird Strategies", "kind": "company" }
+    {
+      "id": "o-pixelville",
+      "name": "City of Pixelville",
+      "kind": "city",
+      "description": "Fictional mid-size city (pop. 84,000) in the temperate-but-imaginary heartland. Known for early adoption of civic-tech pilots.",
+      "website": "https://example.org/pixelville",
+      "linkedin": "https://www.linkedin.com/company/pixelville-fake"
+    },
+    {
+      "id": "o-new-whimsy",
+      "name": "City of New Whimsy",
+      "kind": "city",
+      "description": "Fictional coastal city of 220,000 with a strong civic-engineering office and a long-standing partnership with the local university.",
+      "website": "https://example.org/new-whimsy",
+      "linkedin": "https://www.linkedin.com/company/new-whimsy-fake"
+    },
+    {
+      "id": "o-east-sproutdale",
+      "name": "City of East Sproutdale",
+      "kind": "city",
+      "description": "Fictional suburban municipality (pop. 38,000). Notable for participatory budgeting and a small but very online comms team.",
+      "website": "https://example.org/east-sproutdale",
+      "linkedin": "https://www.linkedin.com/company/east-sproutdale-fake"
+    },
+    {
+      "id": "o-north-tinkertown",
+      "name": "Town of North Tinkertown",
+      "kind": "city",
+      "description": "Fictional rural town of 11,000. Volunteer-heavy boards, lean staff, hungry for low-cost infrastructure tools.",
+      "website": "https://example.org/north-tinkertown",
+      "linkedin": "https://www.linkedin.com/company/north-tinkertown-fake"
+    },
+    {
+      "id": "o-pretendo-civic",
+      "name": "Pretendo Civic Co.",
+      "kind": "company",
+      "description": "Fictional Series A civic-tech vendor selling permitting software to mid-size cities. Recently expanded into the public-works vertical.",
+      "website": "https://example.com/pretendo-civic",
+      "linkedin": "https://www.linkedin.com/company/pretendo-civic-fake"
+    },
+    {
+      "id": "o-faux-foundation",
+      "name": "Faux Foundation",
+      "kind": "nonprofit",
+      "description": "Fictional policy nonprofit funding research on infrastructure equity. Hosts an invite-only annual gala that gets a lot of municipal officials in one room.",
+      "website": "https://example.org/faux-foundation",
+      "linkedin": "https://www.linkedin.com/company/faux-foundation-fake"
+    },
+    {
+      "id": "o-imaginary-insights",
+      "name": "Imaginary Insights LLC",
+      "kind": "company",
+      "description": "Fictional consultancy advising cities and vendors on procurement strategy. Three partners, mostly remote.",
+      "website": "https://example.com/imaginary-insights",
+      "linkedin": "https://www.linkedin.com/company/imaginary-insights-fake"
+    },
+    {
+      "id": "o-demo-dynamics",
+      "name": "Demo Dynamics",
+      "kind": "company",
+      "description": "Fictional growth-stage sensor-hardware vendor. Manufactures decorative widgets that pretend to measure things.",
+      "website": "https://example.com/demo-dynamics",
+      "linkedin": "https://www.linkedin.com/company/demo-dynamics-fake"
+    },
+    {
+      "id": "o-notional-networks",
+      "name": "Notional Networks",
+      "kind": "nonprofit",
+      "description": "Fictional civic-data nonprofit running open-source infrastructure dashboards for partner cities.",
+      "website": "https://example.org/notional-networks",
+      "linkedin": "https://www.linkedin.com/company/notional-networks-fake"
+    },
+    {
+      "id": "o-mockingbird-strategies",
+      "name": "Mockingbird Strategies",
+      "kind": "company",
+      "description": "Fictional GR / lobbying shop with a focus on small-town municipal contracts. Reputation for unusually thorough placeholder reports.",
+      "website": "https://example.com/mockingbird-strategies",
+      "linkedin": "https://www.linkedin.com/company/mockingbird-strategies-fake"
+    }
   ],
   "people": [
-    { "id": "p-zip-tessellator", "name": "Zip Tessellator", "role": "Mayor of Pixelville", "orgIds": ["o-pixelville"] },
-    { "id": "p-bea-pixelton", "name": "Bea Pixelton", "role": "City Councilor, Pixelville", "orgIds": ["o-pixelville"] },
-    { "id": "p-quill-brackish", "name": "Quill Brackish", "role": "CTO, City of New Whimsy", "orgIds": ["o-new-whimsy"] },
-    { "id": "p-mira-cogsworth", "name": "Mira Cogsworth", "role": "Director, Pretendo Civic Co.", "orgIds": ["o-pretendo-civic"] },
-    { "id": "p-felix-underscore", "name": "Felix Underscore", "role": "Senior Analyst, Faux Foundation", "orgIds": ["o-faux-foundation"] },
-    { "id": "p-wren-hashbrown", "name": "Wren Hashbrown", "role": "Advisor, Imaginary Insights LLC", "orgIds": ["o-imaginary-insights"] },
-    { "id": "p-tibby-quark", "name": "Tibby Quark", "role": "Mayor of East Sproutdale", "orgIds": ["o-east-sproutdale"] },
-    { "id": "p-mo-fizzlebottom", "name": "Mo Fizzlebottom", "role": "Town Manager, North Tinkertown", "orgIds": ["o-north-tinkertown"] },
-    { "id": "p-juno-paradox", "name": "Juno Paradox", "role": "VP Sales, Demo Dynamics", "orgIds": ["o-demo-dynamics"] },
-    { "id": "p-otto-bracket", "name": "Otto Bracket", "role": "Founder, Notional Networks", "orgIds": ["o-notional-networks"] },
-    { "id": "p-roo-stardust", "name": "Roo Stardust", "role": "Partner, Mockingbird Strategies", "orgIds": ["o-mockingbird-strategies"] },
-    { "id": "p-pip-glomwhistle", "name": "Pip Glomwhistle", "role": "Procurement Officer, Pixelville", "orgIds": ["o-pixelville"] },
-    { "id": "p-cosmo-nibble", "name": "Cosmo Nibble", "role": "Council Aide, New Whimsy", "orgIds": ["o-new-whimsy"] },
-    { "id": "p-tess-orbit", "name": "Tess Orbit", "role": "Engagement Lead, Pretendo Civic Co.", "orgIds": ["o-pretendo-civic"] },
-    { "id": "p-dax-marble", "name": "Dax Marble", "role": "Researcher, Faux Foundation", "orgIds": ["o-faux-foundation"] },
-    { "id": "p-vivi-zenith", "name": "Vivi Zenith", "role": "Board Member, Notional Networks", "orgIds": ["o-notional-networks", "o-east-sproutdale"] },
-    { "id": "p-sage-pebble", "name": "Sage Pebble", "role": "Consultant, Imaginary Insights LLC", "orgIds": ["o-imaginary-insights"] },
-    { "id": "p-rune-quiver", "name": "Rune Quiver", "role": "Engineer, Demo Dynamics", "orgIds": ["o-demo-dynamics"] },
-    { "id": "p-mox-loopy", "name": "Mox Loopy", "role": "Civic Fellow", "orgIds": ["o-faux-foundation", "o-pixelville"] },
-    { "id": "p-lark-bandit", "name": "Lark Bandit", "role": "Lobbyist, Mockingbird Strategies", "orgIds": ["o-mockingbird-strategies"] }
+    {
+      "id": "p-zip-tessellator",
+      "name": "Zip Tessellator",
+      "role": "Mayor of Pixelville",
+      "orgIds": ["o-pixelville"],
+      "description": "Fictional second-term mayor. Engineer by background, ran on a 'smarter potholes' platform. Likes vendor demos that get to the point in five minutes.",
+      "website": "https://example.com/zip-tessellator",
+      "linkedin": "https://www.linkedin.com/in/zip-tessellator-fake"
+    },
+    {
+      "id": "p-bea-pixelton",
+      "name": "Bea Pixelton",
+      "role": "City Councilor, Pixelville",
+      "orgIds": ["o-pixelville"],
+      "description": "Fictional first-term councilor representing the east ward. Chairs the public-works subcommittee and reads every line item.",
+      "website": "https://example.com/bea-pixelton",
+      "linkedin": "https://www.linkedin.com/in/bea-pixelton-fake"
+    },
+    {
+      "id": "p-quill-brackish",
+      "name": "Quill Brackish",
+      "role": "CTO, City of New Whimsy",
+      "orgIds": ["o-new-whimsy"],
+      "description": "Fictional first CTO hired by New Whimsy. Came from a regional ISP. Cautious about new vendors, fast to greenlight pilots with clear exits.",
+      "website": "https://example.com/quill-brackish",
+      "linkedin": "https://www.linkedin.com/in/quill-brackish-fake"
+    },
+    {
+      "id": "p-mira-cogsworth",
+      "name": "Mira Cogsworth",
+      "role": "Director, Pretendo Civic Co.",
+      "orgIds": ["o-pretendo-civic"],
+      "description": "Fictional Director of Customer Success at Pretendo Civic Co. Long history with mid-size city accounts. Travels constantly.",
+      "website": "https://example.com/mira-cogsworth",
+      "linkedin": "https://www.linkedin.com/in/mira-cogsworth-fake"
+    },
+    {
+      "id": "p-felix-underscore",
+      "name": "Felix Underscore",
+      "role": "Senior Analyst, Faux Foundation",
+      "orgIds": ["o-faux-foundation"],
+      "description": "Fictional senior research analyst. Writes the foundation's annual infrastructure-equity index. Quoted in trade press more than you'd expect.",
+      "website": "https://example.com/felix-underscore",
+      "linkedin": "https://www.linkedin.com/in/felix-underscore-fake"
+    },
+    {
+      "id": "p-wren-hashbrown",
+      "name": "Wren Hashbrown",
+      "role": "Advisor, Imaginary Insights LLC",
+      "orgIds": ["o-imaginary-insights"],
+      "description": "Fictional senior advisor specializing in procurement strategy. Former state-level CIO. Soft-spoken in meetings, brutal on contracts.",
+      "website": "https://example.com/wren-hashbrown",
+      "linkedin": "https://www.linkedin.com/in/wren-hashbrown-fake"
+    },
+    {
+      "id": "p-tibby-quark",
+      "name": "Tibby Quark",
+      "role": "Mayor of East Sproutdale",
+      "orgIds": ["o-east-sproutdale"],
+      "description": "Fictional first-term mayor of East Sproutdale. Background in local journalism. Hosts a monthly office-hours stream.",
+      "website": "https://example.com/tibby-quark",
+      "linkedin": "https://www.linkedin.com/in/tibby-quark-fake"
+    },
+    {
+      "id": "p-mo-fizzlebottom",
+      "name": "Mo Fizzlebottom",
+      "role": "Town Manager, North Tinkertown",
+      "orgIds": ["o-north-tinkertown"],
+      "description": "Fictional town manager with a fifteen-year tenure. Holds the institutional memory of every roads contract since 2011.",
+      "website": "https://example.com/mo-fizzlebottom",
+      "linkedin": "https://www.linkedin.com/in/mo-fizzlebottom-fake"
+    },
+    {
+      "id": "p-juno-paradox",
+      "name": "Juno Paradox",
+      "role": "VP Sales, Demo Dynamics",
+      "orgIds": ["o-demo-dynamics"],
+      "description": "Fictional VP of Sales. Owns the public-sector pipeline. Closes deals faster when there's a warm intro on the calendar.",
+      "website": "https://example.com/juno-paradox",
+      "linkedin": "https://www.linkedin.com/in/juno-paradox-fake"
+    },
+    {
+      "id": "p-otto-bracket",
+      "name": "Otto Bracket",
+      "role": "Founder, Notional Networks",
+      "orgIds": ["o-notional-networks"],
+      "description": "Fictional founder of Notional Networks. Open-source contributor. Speaks at municipal-tech meetups.",
+      "website": "https://example.com/otto-bracket",
+      "linkedin": "https://www.linkedin.com/in/otto-bracket-fake"
+    },
+    {
+      "id": "p-roo-stardust",
+      "name": "Roo Stardust",
+      "role": "Partner, Mockingbird Strategies",
+      "orgIds": ["o-mockingbird-strategies"],
+      "description": "Fictional senior partner specializing in small-town government relations. Knows everyone in towns under 50k.",
+      "website": "https://example.com/roo-stardust",
+      "linkedin": "https://www.linkedin.com/in/roo-stardust-fake"
+    },
+    {
+      "id": "p-pip-glomwhistle",
+      "name": "Pip Glomwhistle",
+      "role": "Procurement Officer, Pixelville",
+      "orgIds": ["o-pixelville"],
+      "description": "Fictional procurement officer. Owns the RFP queue. Pragmatic about pilots, allergic to multi-year contracts.",
+      "website": "https://example.com/pip-glomwhistle",
+      "linkedin": "https://www.linkedin.com/in/pip-glomwhistle-fake"
+    },
+    {
+      "id": "p-cosmo-nibble",
+      "name": "Cosmo Nibble",
+      "role": "Council Aide, New Whimsy",
+      "orgIds": ["o-new-whimsy"],
+      "description": "Fictional council aide. Drafts memos and shapes which proposals make it onto the agenda.",
+      "website": "https://example.com/cosmo-nibble",
+      "linkedin": "https://www.linkedin.com/in/cosmo-nibble-fake"
+    },
+    {
+      "id": "p-tess-orbit",
+      "name": "Tess Orbit",
+      "role": "Engagement Lead, Pretendo Civic Co.",
+      "orgIds": ["o-pretendo-civic"],
+      "description": "Fictional engagement lead. Runs Pretendo's quarterly user-council. Friendly with about half the people on this graph.",
+      "website": "https://example.com/tess-orbit",
+      "linkedin": "https://www.linkedin.com/in/tess-orbit-fake"
+    },
+    {
+      "id": "p-dax-marble",
+      "name": "Dax Marble",
+      "role": "Researcher, Faux Foundation",
+      "orgIds": ["o-faux-foundation"],
+      "description": "Fictional research associate. Specializes in regional infrastructure spending patterns.",
+      "website": "https://example.com/dax-marble",
+      "linkedin": "https://www.linkedin.com/in/dax-marble-fake"
+    },
+    {
+      "id": "p-vivi-zenith",
+      "name": "Vivi Zenith",
+      "role": "Board Member, Notional Networks",
+      "orgIds": ["o-notional-networks", "o-east-sproutdale"],
+      "description": "Fictional board member with seats on both Notional Networks and the East Sproutdale civic-data board. Cross-pollinator.",
+      "website": "https://example.com/vivi-zenith",
+      "linkedin": "https://www.linkedin.com/in/vivi-zenith-fake"
+    },
+    {
+      "id": "p-sage-pebble",
+      "name": "Sage Pebble",
+      "role": "Consultant, Imaginary Insights LLC",
+      "orgIds": ["o-imaginary-insights"],
+      "description": "Fictional consultant. Embedded in two municipal modernization projects this year.",
+      "website": "https://example.com/sage-pebble",
+      "linkedin": "https://www.linkedin.com/in/sage-pebble-fake"
+    },
+    {
+      "id": "p-rune-quiver",
+      "name": "Rune Quiver",
+      "role": "Engineer, Demo Dynamics",
+      "orgIds": ["o-demo-dynamics"],
+      "description": "Fictional staff hardware engineer. Owns the sensor firmware that does not, in fact, sense anything real.",
+      "website": "https://example.com/rune-quiver",
+      "linkedin": "https://www.linkedin.com/in/rune-quiver-fake"
+    },
+    {
+      "id": "p-mox-loopy",
+      "name": "Mox Loopy",
+      "role": "Civic Fellow",
+      "orgIds": ["o-faux-foundation", "o-pixelville"],
+      "description": "Fictional civic fellow placed jointly with the Faux Foundation and the City of Pixelville. Bridge between research and ops.",
+      "website": "https://example.com/mox-loopy",
+      "linkedin": "https://www.linkedin.com/in/mox-loopy-fake"
+    },
+    {
+      "id": "p-lark-bandit",
+      "name": "Lark Bandit",
+      "role": "Lobbyist, Mockingbird Strategies",
+      "orgIds": ["o-mockingbird-strategies"],
+      "description": "Fictional registered lobbyist. Has a remarkable contact list and an even more remarkable backlog of unread emails.",
+      "website": "https://example.com/lark-bandit",
+      "linkedin": "https://www.linkedin.com/in/lark-bandit-fake"
+    }
   ],
   "edges": [
     { "from": "p-zip-tessellator", "to": "o-pixelville", "kind": "works_at" },

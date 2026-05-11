@@ -7,9 +7,9 @@ type Particle = { x: number; y: number; vx: number; vy: number };
 const NODE_COUNT = 60;
 const LINK_DISTANCE = 160;
 const NODE_RADIUS = 2.5;
-const NODE_COLOR = '#7dd3fc';
-const LINK_COLOR = 'rgba(125, 211, 252, ';
-const BG = '#0a0a0f';
+const NODE_COLOR = '#daff00';
+const LINK_COLOR = 'rgba(218, 255, 0, ';
+const BG = '#000000';
 
 function rand(min: number, max: number) {
   return Math.random() * (max - min) + min;
@@ -70,7 +70,7 @@ export default function NetworkBackground() {
           const dy = a.y - b.y;
           const d = Math.hypot(dx, dy);
           if (d < LINK_DISTANCE) {
-            const alpha = (1 - d / LINK_DISTANCE) * 0.35;
+            const alpha = (1 - d / LINK_DISTANCE) * 0.22;
             ctx!.strokeStyle = `${LINK_COLOR}${alpha})`;
             ctx!.lineWidth = 1;
             ctx!.beginPath();
