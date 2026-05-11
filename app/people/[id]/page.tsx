@@ -13,6 +13,7 @@ import Avatar from '@/components/Avatar';
 import EdgeChip from '@/components/EdgeChip';
 import ActivityTimeline from '@/components/ActivityTimeline';
 import ActivityStatsCard from '@/components/ActivityStats';
+import PersonaCard from '@/components/PersonaCard';
 
 export const dynamicParams = false;
 
@@ -71,6 +72,13 @@ export default async function PersonPage({ params }: PageProps) {
               <span className="text-[11px] text-white/35">
                 Fictional activity for demo
               </span>
+            </div>
+            <div className="mb-5">
+              <PersonaCard
+                entityKind="person"
+                entityId={person.id}
+                cacheTag={activities[0]?.at ?? ''}
+              />
             </div>
             <div className="mb-5">
               <ActivityStatsCard stats={stats} />
