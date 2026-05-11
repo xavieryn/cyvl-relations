@@ -1,68 +1,118 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
-import dynamic from 'next/dynamic';
+import { useEffect, useRef } from 'react';
 
-const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false });
+type Particle = { x: number; y: number; vx: number; vy: number };
 
-type Node = { id: string };
-type Link = { source: string; target: string };
+const NODE_COUNT = 60;
+const LINK_DISTANCE = 160;
+const NODE_RADIUS = 2.5;
+const NODE_COLOR = '#7dd3fc';
+const LINK_COLOR = 'rgba(125, 211, 252, ';
+const BG = '#0a0a0f';
 
-function buildGraph(nodeCount: number, edgesPerNode: number) {
-  const nodes: Node[] = Array.from({ length: nodeCount }, (_, i) => ({ id: `n${i}` }));
-  const links: Link[] = [];
-  const seen = new Set<string>();
-  for (let i = 0; i < nodeCount; i++) {
-    for (let k = 0; k < edgesPerNode; k++) {
-      const j = Math.floor(Math.random() * nodeCount);
-      if (j === i) continue;
-      const key = i < j ? `${i}-${j}` : `${j}-${i}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      links.push({ source: `n${i}`, target: `n${j}` });
-    }
-  }
-  return { nodes, links };
+function rand(min: number, max: number) {
+  return Math.random() * (max - min) + min;
 }
 
 export default function NetworkBackground() {
-  const containerRef = useRef<HTMLDivElement | null>(null);
-  const [size, setSize] = useState({ w: 0, h: 0 });
-  const graph = useMemo(() => buildGraph(30, 2), []);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    const update = () => setSize({ w: el.clientWidth, h: el.clientHeight });
-    update();
-    const ro = new ResizeObserver(update);
-    ro.observe(el);
-    return () => ro.disconnect();
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    let width = 0;
+    let height = 0;
+    let dpr = Math.max(1, window.devicePixelRatio || 1);
+    let particles: Particle[] = [];
+    let raf = 0;
+
+    function resize() {
+      if (!canvas) return;
+      width = window.innerWidth;
+      height = window.innerHeight;
+      dpr = Math.max(1, window.devicePixelRatio || 1);
+      canvas.width = Math.floor(width * dpr);
+      canvas.height = Math.floor(height * dpr);
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+      ctx!.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function init() {
+      particles = Array.from({ length: NODE_COUNT }, () => ({
+        x: rand(0, width),
+        y: rand(0, height),
+        vx: rand(-0.25, 0.25),
+        vy: rand(-0.25, 0.25),
+      }));
+    }
+
+    function step() {
+      ctx!.fillStyle = BG;
+      ctx!.fillRect(0, 0, width, height);
+
+      for (const p of particles) {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > width) p.vx *= -1;
+        if (p.y < 0 || p.y > height) p.vy *= -1;
+      }
+
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const a = particles[i];
+          const b = particles[j];
+          const dx = a.x - b.x;
+          const dy = a.y - b.y;
+          const d = Math.hypot(dx, dy);
+          if (d < LINK_DISTANCE) {
+            const alpha = (1 - d / LINK_DISTANCE) * 0.35;
+            ctx!.strokeStyle = `${LINK_COLOR}${alpha})`;
+            ctx!.lineWidth = 1;
+            ctx!.beginPath();
+            ctx!.moveTo(a.x, a.y);
+            ctx!.lineTo(b.x, b.y);
+            ctx!.stroke();
+          }
+        }
+      }
+
+      ctx!.fillStyle = NODE_COLOR;
+      for (const p of particles) {
+        ctx!.beginPath();
+        ctx!.arc(p.x, p.y, NODE_RADIUS, 0, Math.PI * 2);
+        ctx!.fill();
+      }
+
+      raf = requestAnimationFrame(step);
+    }
+
+    resize();
+    init();
+    step();
+
+    const onResize = () => {
+      resize();
+      init();
+    };
+    window.addEventListener('resize', onResize);
+
+    return () => {
+      window.removeEventListener('resize', onResize);
+      cancelAnimationFrame(raf);
+    };
   }, []);
 
   return (
-    <div
-      ref={containerRef}
-      className="absolute inset-0 -z-10"
+    <canvas
+      ref={canvasRef}
       aria-hidden="true"
-    >
-      {size.w > 0 && (
-        <ForceGraph2D
-          graphData={graph}
-          width={size.w}
-          height={size.h}
-          backgroundColor="#0a0a0f"
-          nodeColor={() => '#7dd3fc'}
-          nodeRelSize={3}
-          linkColor={() => 'rgba(125, 211, 252, 0.25)'}
-          linkWidth={1}
-          enableZoomInteraction={false}
-          enablePanInteraction={false}
-          enableNodeDrag={false}
-          cooldownTime={Infinity}
-          d3VelocityDecay={0.2}
-        />
-      )}
-    </div>
+      className="fixed inset-0 h-screen w-screen"
+      style={{ background: BG }}
+    />
   );
 }
