@@ -1,5 +1,12 @@
 import { describe, it, expect } from 'vitest';
-import { getPerson, getOrg, neighbors, search } from './graph';
+import {
+  getPerson,
+  getOrg,
+  neighbors,
+  search,
+  getMainContact,
+  getSourcePerson,
+} from './graph';
 
 describe('graph lib', () => {
   it('looks up a known person by id', () => {
@@ -45,5 +52,20 @@ describe('graph lib', () => {
 
   it('search returns an empty array for a no-hit query', () => {
     expect(search('zzzzzzz')).toEqual([]);
+  });
+
+  it('getMainContact returns the pinned person for an org', () => {
+    const org = getOrg('o-pixelville');
+    expect(org).toBeDefined();
+    expect(getMainContact(org!)?.id).toBe('p-zip-tessellator');
+  });
+
+  it('getMainContact returns undefined when mainContactId missing', () => {
+    expect(getMainContact({ id: 'o-x', name: 'X', kind: 'other' })).toBeUndefined();
+  });
+
+  it('getSourcePerson returns the pinned source person', () => {
+    const org = getOrg('o-pixelville');
+    expect(getSourcePerson(org!)?.id).toBe('p-mira-cogsworth');
   });
 });

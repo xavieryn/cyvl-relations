@@ -7,7 +7,19 @@
       "description": "Fictional mid-size city (pop. 84,000) in the temperate-but-imaginary heartland. Known for early adoption of civic-tech pilots.",
       "website": "https://example.org/pixelville",
       "linkedin": "https://www.linkedin.com/company/pixelville-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20Pixelville&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20Pixelville&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "active-customer",
+      "statusSince": "2026-02-04",
+      "lastContacted": "2026-05-09",
+      "ownerId": "t-self",
+      "mainContactId": "p-zip-tessellator",
+      "sourceOfIntroductionId": "p-mira-cogsworth",
+      "location": "Pixelville, MW",
+      "industry": [
+        "City Government",
+        "Public Works"
+      ],
+      "notes": "Renewal conversation Q3."
     },
     {
       "id": "o-new-whimsy",
@@ -16,7 +28,19 @@
       "description": "Fictional coastal city of 220,000 with a strong civic-engineering office and a long-standing partnership with the local university.",
       "website": "https://example.org/new-whimsy",
       "linkedin": "https://www.linkedin.com/company/new-whimsy-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20New%20Whimsy&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20New%20Whimsy&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "pilot-discussion",
+      "statusSince": "2026-04-12",
+      "lastContacted": "2026-05-06",
+      "ownerId": "t-dana",
+      "mainContactId": "p-quill-brackish",
+      "sourceOfIntroductionId": "p-mira-cogsworth",
+      "location": "New Whimsy, NE Coast",
+      "industry": [
+        "City Government",
+        "Smart City"
+      ],
+      "notes": "Pilot scoped for July."
     },
     {
       "id": "o-east-sproutdale",
@@ -25,7 +49,18 @@
       "description": "Fictional suburban municipality (pop. 38,000). Notable for participatory budgeting and a small but very online comms team.",
       "website": "https://example.org/east-sproutdale",
       "linkedin": "https://www.linkedin.com/company/east-sproutdale-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20East%20Sproutdale&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20East%20Sproutdale&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "discovery",
+      "statusSince": "2026-05-01",
+      "lastContacted": "2026-05-08",
+      "ownerId": "t-marcus",
+      "mainContactId": "p-tibby-quark",
+      "sourceOfIntroductionId": "p-vivi-zenith",
+      "location": "East Sproutdale, MW",
+      "industry": [
+        "City Government"
+      ],
+      "notes": "Intro call w/ mayor next week."
     },
     {
       "id": "o-north-tinkertown",
@@ -34,7 +69,18 @@
       "description": "Fictional rural town of 11,000. Volunteer-heavy boards, lean staff, hungry for low-cost infrastructure tools.",
       "website": "https://example.org/north-tinkertown",
       "linkedin": "https://www.linkedin.com/company/north-tinkertown-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Town%20of%20North%20Tinkertown&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Town%20of%20North%20Tinkertown&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "prospect",
+      "statusSince": "2026-04-28",
+      "lastContacted": "2026-04-30",
+      "ownerId": "t-dana",
+      "mainContactId": "p-mo-fizzlebottom",
+      "sourceOfIntroductionId": "p-roo-stardust",
+      "location": "North Tinkertown, RU",
+      "industry": [
+        "Rural Municipality"
+      ],
+      "notes": "Cold outreach via Roo."
     },
     {
       "id": "o-pretendo-civic",
@@ -43,7 +89,19 @@
       "description": "Fictional Series A civic-tech vendor selling permitting software to mid-size cities. Recently expanded into the public-works vertical.",
       "website": "https://example.com/pretendo-civic",
       "linkedin": "https://www.linkedin.com/company/pretendo-civic-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Pretendo%20Civic%20Co.&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Pretendo%20Civic%20Co.&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "active-customer",
+      "statusSince": "2026-01-10",
+      "lastContacted": "2026-05-10",
+      "ownerId": "t-self",
+      "mainContactId": "p-mira-cogsworth",
+      "sourceOfIntroductionId": "p-felix-underscore",
+      "location": "Remote / US",
+      "industry": [
+        "Civic Tech",
+        "Software"
+      ],
+      "notes": "Co-marketing partner; quarterly sync."
     },
     {
       "id": "o-faux-foundation",
@@ -52,7 +110,19 @@
       "description": "Fictional policy nonprofit funding research on infrastructure equity. Hosts an invite-only annual gala that gets a lot of municipal officials in one room.",
       "website": "https://example.org/faux-foundation",
       "linkedin": "https://www.linkedin.com/company/faux-foundation-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Faux%20Foundation&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Faux%20Foundation&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "on-hold",
+      "statusSince": "2026-03-22",
+      "lastContacted": "2026-04-02",
+      "ownerId": "t-marcus",
+      "mainContactId": "p-felix-underscore",
+      "sourceOfIntroductionId": "p-mox-loopy",
+      "location": "Washington, DC",
+      "industry": [
+        "Nonprofit",
+        "Policy"
+      ],
+      "notes": "Waiting on gala invite confirm."
     },
     {
       "id": "o-imaginary-insights",
@@ -61,7 +131,19 @@
       "description": "Fictional consultancy advising cities and vendors on procurement strategy. Three partners, mostly remote.",
       "website": "https://example.com/imaginary-insights",
       "linkedin": "https://www.linkedin.com/company/imaginary-insights-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Imaginary%20Insights%20LLC&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Imaginary%20Insights%20LLC&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "proposal-sent",
+      "statusSince": "2026-04-25",
+      "lastContacted": "2026-05-07",
+      "ownerId": "t-self",
+      "mainContactId": "p-wren-hashbrown",
+      "sourceOfIntroductionId": "p-juno-paradox",
+      "location": "Remote / US",
+      "industry": [
+        "Consulting",
+        "Procurement"
+      ],
+      "notes": "Proposal sent 4/25; decision by 5/20."
     },
     {
       "id": "o-demo-dynamics",
@@ -70,7 +152,19 @@
       "description": "Fictional growth-stage sensor-hardware vendor. Manufactures decorative widgets that pretend to measure things.",
       "website": "https://example.com/demo-dynamics",
       "linkedin": "https://www.linkedin.com/company/demo-dynamics-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Demo%20Dynamics&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Demo%20Dynamics&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "contract-signed",
+      "statusSince": "2026-04-30",
+      "lastContacted": "2026-05-04",
+      "ownerId": "t-dana",
+      "mainContactId": "p-juno-paradox",
+      "sourceOfIntroductionId": "p-wren-hashbrown",
+      "location": "Denver, CO",
+      "industry": [
+        "Hardware",
+        "Sensors"
+      ],
+      "notes": "MSA signed, kickoff next week."
     },
     {
       "id": "o-notional-networks",
@@ -79,7 +173,19 @@
       "description": "Fictional civic-data nonprofit running open-source infrastructure dashboards for partner cities.",
       "website": "https://example.org/notional-networks",
       "linkedin": "https://www.linkedin.com/company/notional-networks-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Notional%20Networks&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Notional%20Networks&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "discovery",
+      "statusSince": "2026-04-18",
+      "lastContacted": "2026-05-02",
+      "ownerId": "t-marcus",
+      "mainContactId": "p-otto-bracket",
+      "sourceOfIntroductionId": "p-felix-underscore",
+      "location": "Brooklyn, NY",
+      "industry": [
+        "Nonprofit",
+        "Open Source"
+      ],
+      "notes": "Aligned on dashboard pilot."
     },
     {
       "id": "o-mockingbird-strategies",
@@ -88,7 +194,19 @@
       "description": "Fictional GR / lobbying shop with a focus on small-town municipal contracts. Reputation for unusually thorough placeholder reports.",
       "website": "https://example.com/mockingbird-strategies",
       "linkedin": "https://www.linkedin.com/company/mockingbird-strategies-fake",
-      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Mockingbird%20Strategies&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Mockingbird%20Strategies&backgroundColor=ff9e2c&textColor=000000&fontWeight=600",
+      "status": "passed",
+      "statusSince": "2026-03-15",
+      "lastContacted": "2026-03-18",
+      "ownerId": "t-dana",
+      "mainContactId": "p-roo-stardust",
+      "sourceOfIntroductionId": "p-lark-bandit",
+      "location": "Capitol Hill, DC",
+      "industry": [
+        "Lobbying",
+        "Government Relations"
+      ],
+      "notes": "Misaligned on pricing model."
     }
   ],
   "people": [

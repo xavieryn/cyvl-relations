@@ -1,0 +1,22 @@
+{
+  "members": [
+    {
+      "id": "t-self",
+      "name": "You",
+      "role": "Account Owner",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=t-self&backgroundColor=daff00"
+    },
+    {
+      "id": "t-dana",
+      "name": "Dana Quill",
+      "role": "Head of Civic BD",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=t-dana&backgroundColor=daff00"
+    },
+    {
+      "id": "t-marcus",
+      "name": "Marcus Reed",
+      "role": "Partnerships",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=t-marcus&backgroundColor=daff00"
+    }
+  ]
+}

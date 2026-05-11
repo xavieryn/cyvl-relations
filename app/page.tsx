@@ -35,18 +35,18 @@ export default function Page() {
 
           <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
             <Link
-              href="/search"
+              href="/deals"
               className="inline-flex items-center rounded-full bg-[#daff00] px-7 py-3.5 text-sm font-semibold text-black shadow-[0_8px_28px_-8px_rgba(218,255,0,0.5)] transition hover:bg-[#c8f135] hover:shadow-[0_10px_32px_-6px_rgba(218,255,0,0.7)]"
               style={{ borderRadius: '48px' }}
             >
-              Explore the graph →
+              View deals →
             </Link>
             <Link
-              href="/people/p-zip-tessellator"
+              href="/search"
               className="inline-flex items-center rounded-full border border-white/20 px-6 py-3 text-sm font-medium text-white/80 transition hover:border-white/50 hover:text-white"
               style={{ borderRadius: '48px' }}
             >
-              See a profile
+              Search people
             </Link>
           </div>
 

@@ -7,6 +7,23 @@ export type EdgeKind =
   | 'attended'
   | 'knows';
 
+export type DealStatus =
+  | 'prospect'
+  | 'discovery'
+  | 'pilot-discussion'
+  | 'proposal-sent'
+  | 'contract-signed'
+  | 'active-customer'
+  | 'passed'
+  | 'on-hold';
+
+export type TeamMember = {
+  id: string;
+  name: string;
+  role: string;
+  avatarUrl?: string;
+};
+
 export type Person = {
   id: string;
   name: string;
@@ -26,6 +43,16 @@ export type Organization = {
   website?: string;
   linkedin?: string;
   avatarUrl?: string;
+  // Pipeline / deal-flow fields
+  status?: DealStatus;
+  statusSince?: string;       // ISO date
+  lastContacted?: string;     // ISO date
+  ownerId?: string;           // TeamMember.id
+  mainContactId?: string;     // Person.id
+  sourceOfIntroductionId?: string; // Person.id or TeamMember.id
+  location?: string;
+  industry?: string[];
+  notes?: string;
 };
 
 export type Edge = {

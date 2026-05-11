@@ -52,6 +52,16 @@ export function entityKind(id: string): 'person' | 'org' | null {
   return null;
 }
 
+export function getMainContact(org: Organization): Person | undefined {
+  return org.mainContactId ? peopleById.get(org.mainContactId) : undefined;
+}
+
+export function getSourcePerson(org: Organization): Person | undefined {
+  return org.sourceOfIntroductionId
+    ? peopleById.get(org.sourceOfIntroductionId)
+    : undefined;
+}
+
 export function search(query: string): Entity[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
