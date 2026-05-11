@@ -9,7 +9,7 @@ import type { Activity, Person, Organization } from '@/lib/types';
 
 export const runtime = 'nodejs';
 
-const MODEL = 'claude-opus-4-7';
+const MODEL = 'claude-haiku-4-5';
 const MAX_TOKENS = 500;
 
 const SYSTEM_PROMPT = `You are a relationship-intelligence analyst writing brief, candid summaries for a civic-sector business-development team.
@@ -160,7 +160,6 @@ export async function POST(req: Request) {
       model: MODEL,
       max_tokens: MAX_TOKENS,
       system: SYSTEM_PROMPT,
-      output_config: { effort: 'low' },
       messages: [
         {
           role: 'user',
