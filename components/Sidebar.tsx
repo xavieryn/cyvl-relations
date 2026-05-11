@@ -116,7 +116,7 @@ export default function Sidebar({ notifications }: Props) {
             dot="bg-[#1b79c5]"
           />
           <NotifLink
-            href="/deals?status=active-customer"
+            href="/deals?renewals=1"
             label="Renewals due"
             count={notifications.renewalsDue}
             dot="bg-[#daff00]"

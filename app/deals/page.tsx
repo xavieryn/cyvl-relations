@@ -2,8 +2,46 @@ import { allOrgs, getMainContact } from '@/lib/graph';
 import { allTeam, getTeamMember } from '@/lib/team';
 import DealsTable, { type DealRow, type SortKey, type SortDir } from '@/components/DealsTable';
 import DealsFilterBar from '@/components/DealsFilterBar';
-import { STATUS_META } from '@/lib/status';
+import { STATUS_META, daysSince } from '@/lib/status';
+import { activitiesForOrg } from '@/lib/activities';
 import type { Organization } from '@/lib/types';
+import Link from 'next/link';
+
+const STALE_DAYS = 30;
+const RENEWAL_DAYS = 120;
+
+type NotifFlag = 'stale' | 'unanswered' | 'renewals';
+
+const NOTIF_LABEL: Record<NotifFlag, { title: string; help: string }> = {
+  stale: {
+    title: 'Stale accounts',
+    help: `Orgs with no recorded contact in ${STALE_DAYS}+ days.`,
+  },
+  unanswered: {
+    title: 'Unanswered emails',
+    help: 'Orgs where the most recent email activity is inbound (waiting on our reply).',
+  },
+  renewals: {
+    title: 'Renewals due',
+    help: `Active customers who have been in their current stage for ${RENEWAL_DAYS}+ days.`,
+  },
+};
+
+function isStale(org: Organization): boolean {
+  const d = daysSince(org.lastContacted);
+  return d !== null && d > STALE_DAYS;
+}
+
+function isUnanswered(org: Organization): boolean {
+  const emails = activitiesForOrg(org.id).filter((a) => a.kind === 'email');
+  return emails.length > 0 && emails[0].direction === 'inbound';
+}
+
+function isRenewalDue(org: Organization): boolean {
+  if (org.status !== 'active-customer') return false;
+  const d = daysSince(org.statusSince);
+  return d !== null && d >= RENEWAL_DAYS;
+}
 
 type SearchParams = { [key: string]: string | string[] | undefined };
 
@@ -19,8 +57,13 @@ function matches(
     industries: string[];
     ownerId: string;
     query: string;
+    notif: NotifFlag | null;
   },
 ): boolean {
+  if (params.notif === 'stale' && !isStale(org)) return false;
+  if (params.notif === 'unanswered' && !isUnanswered(org)) return false;
+  if (params.notif === 'renewals' && !isRenewalDue(org)) return false;
+
   if (params.statuses.length > 0) {
     if (!org.status || !params.statuses.includes(org.status)) return false;
   }
@@ -108,11 +151,21 @@ export default async function DealsPage({
   searchParams: Promise<SearchParams>;
 }) {
   const sp = await searchParams;
+  const notif: NotifFlag | null =
+    sp.stale === '1'
+      ? 'stale'
+      : sp.unanswered === '1'
+        ? 'unanswered'
+        : sp.renewals === '1'
+          ? 'renewals'
+          : null;
+
   const filter = {
     statuses: arr(sp.status),
     industries: arr(sp.industry),
     ownerId: typeof sp.owner === 'string' ? sp.owner : '',
     query: typeof sp.q === 'string' ? sp.q : '',
+    notif,
   };
 
   // Sort state from URL (defaults: lastContact desc)
@@ -159,6 +212,28 @@ export default async function DealsPage({
           Demo · fictional data, read-only
         </div>
       </div>
+
+      {notif && (
+        <div className="mb-4 flex items-start justify-between gap-4 rounded-lg border border-[#daff00]/30 bg-[#daff00]/5 px-4 py-3">
+          <div>
+            <div className="flex items-center gap-2 text-sm font-semibold text-white">
+              <span className="h-1.5 w-1.5 rounded-full bg-[#daff00]" />
+              {NOTIF_LABEL[notif].title}
+              <span className="text-white/40">·</span>
+              <span className="text-white/60">{filtered.length} of {orgs.length}</span>
+            </div>
+            <div className="mt-0.5 text-xs text-white/55">
+              {NOTIF_LABEL[notif].help}
+            </div>
+          </div>
+          <Link
+            href="/deals"
+            className="shrink-0 rounded-md border border-white/20 px-2.5 py-1 text-xs text-white/70 transition hover:border-white/40 hover:text-white"
+          >
+            Clear
+          </Link>
+        </div>
+      )}
 
       <DealsFilterBar
         totalCount={orgs.length}
