@@ -6,7 +6,8 @@
       "kind": "city",
       "description": "Fictional mid-size city (pop. 84,000) in the temperate-but-imaginary heartland. Known for early adoption of civic-tech pilots.",
       "website": "https://example.org/pixelville",
-      "linkedin": "https://www.linkedin.com/company/pixelville-fake"
+      "linkedin": "https://www.linkedin.com/company/pixelville-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20Pixelville&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-new-whimsy",
@@ -14,7 +15,8 @@
       "kind": "city",
       "description": "Fictional coastal city of 220,000 with a strong civic-engineering office and a long-standing partnership with the local university.",
       "website": "https://example.org/new-whimsy",
-      "linkedin": "https://www.linkedin.com/company/new-whimsy-fake"
+      "linkedin": "https://www.linkedin.com/company/new-whimsy-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20New%20Whimsy&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-east-sproutdale",
@@ -22,7 +24,8 @@
       "kind": "city",
       "description": "Fictional suburban municipality (pop. 38,000). Notable for participatory budgeting and a small but very online comms team.",
       "website": "https://example.org/east-sproutdale",
-      "linkedin": "https://www.linkedin.com/company/east-sproutdale-fake"
+      "linkedin": "https://www.linkedin.com/company/east-sproutdale-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=City%20of%20East%20Sproutdale&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-north-tinkertown",
@@ -30,7 +33,8 @@
       "kind": "city",
       "description": "Fictional rural town of 11,000. Volunteer-heavy boards, lean staff, hungry for low-cost infrastructure tools.",
       "website": "https://example.org/north-tinkertown",
-      "linkedin": "https://www.linkedin.com/company/north-tinkertown-fake"
+      "linkedin": "https://www.linkedin.com/company/north-tinkertown-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Town%20of%20North%20Tinkertown&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-pretendo-civic",
@@ -38,7 +42,8 @@
       "kind": "company",
       "description": "Fictional Series A civic-tech vendor selling permitting software to mid-size cities. Recently expanded into the public-works vertical.",
       "website": "https://example.com/pretendo-civic",
-      "linkedin": "https://www.linkedin.com/company/pretendo-civic-fake"
+      "linkedin": "https://www.linkedin.com/company/pretendo-civic-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Pretendo%20Civic%20Co.&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-faux-foundation",
@@ -46,7 +51,8 @@
       "kind": "nonprofit",
       "description": "Fictional policy nonprofit funding research on infrastructure equity. Hosts an invite-only annual gala that gets a lot of municipal officials in one room.",
       "website": "https://example.org/faux-foundation",
-      "linkedin": "https://www.linkedin.com/company/faux-foundation-fake"
+      "linkedin": "https://www.linkedin.com/company/faux-foundation-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Faux%20Foundation&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-imaginary-insights",
@@ -54,7 +60,8 @@
       "kind": "company",
       "description": "Fictional consultancy advising cities and vendors on procurement strategy. Three partners, mostly remote.",
       "website": "https://example.com/imaginary-insights",
-      "linkedin": "https://www.linkedin.com/company/imaginary-insights-fake"
+      "linkedin": "https://www.linkedin.com/company/imaginary-insights-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Imaginary%20Insights%20LLC&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-demo-dynamics",
@@ -62,7 +69,8 @@
       "kind": "company",
       "description": "Fictional growth-stage sensor-hardware vendor. Manufactures decorative widgets that pretend to measure things.",
       "website": "https://example.com/demo-dynamics",
-      "linkedin": "https://www.linkedin.com/company/demo-dynamics-fake"
+      "linkedin": "https://www.linkedin.com/company/demo-dynamics-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Demo%20Dynamics&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-notional-networks",
@@ -70,7 +78,8 @@
       "kind": "nonprofit",
       "description": "Fictional civic-data nonprofit running open-source infrastructure dashboards for partner cities.",
       "website": "https://example.org/notional-networks",
-      "linkedin": "https://www.linkedin.com/company/notional-networks-fake"
+      "linkedin": "https://www.linkedin.com/company/notional-networks-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Notional%20Networks&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     },
     {
       "id": "o-mockingbird-strategies",
@@ -78,7 +87,8 @@
       "kind": "company",
       "description": "Fictional GR / lobbying shop with a focus on small-town municipal contracts. Reputation for unusually thorough placeholder reports.",
       "website": "https://example.com/mockingbird-strategies",
-      "linkedin": "https://www.linkedin.com/company/mockingbird-strategies-fake"
+      "linkedin": "https://www.linkedin.com/company/mockingbird-strategies-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/initials/svg?seed=Mockingbird%20Strategies&backgroundColor=ff9e2c&textColor=000000&fontWeight=600"
     }
   ],
   "people": [
@@ -86,233 +96,498 @@
       "id": "p-zip-tessellator",
       "name": "Zip Tessellator",
       "role": "Mayor of Pixelville",
-      "orgIds": ["o-pixelville"],
+      "orgIds": [
+        "o-pixelville"
+      ],
       "description": "Fictional second-term mayor. Engineer by background, ran on a 'smarter potholes' platform. Likes vendor demos that get to the point in five minutes.",
       "website": "https://example.com/zip-tessellator",
-      "linkedin": "https://www.linkedin.com/in/zip-tessellator-fake"
+      "linkedin": "https://www.linkedin.com/in/zip-tessellator-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-zip-tessellator"
     },
     {
       "id": "p-bea-pixelton",
       "name": "Bea Pixelton",
       "role": "City Councilor, Pixelville",
-      "orgIds": ["o-pixelville"],
+      "orgIds": [
+        "o-pixelville"
+      ],
       "description": "Fictional first-term councilor representing the east ward. Chairs the public-works subcommittee and reads every line item.",
       "website": "https://example.com/bea-pixelton",
-      "linkedin": "https://www.linkedin.com/in/bea-pixelton-fake"
+      "linkedin": "https://www.linkedin.com/in/bea-pixelton-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-bea-pixelton"
     },
     {
       "id": "p-quill-brackish",
       "name": "Quill Brackish",
       "role": "CTO, City of New Whimsy",
-      "orgIds": ["o-new-whimsy"],
+      "orgIds": [
+        "o-new-whimsy"
+      ],
       "description": "Fictional first CTO hired by New Whimsy. Came from a regional ISP. Cautious about new vendors, fast to greenlight pilots with clear exits.",
       "website": "https://example.com/quill-brackish",
-      "linkedin": "https://www.linkedin.com/in/quill-brackish-fake"
+      "linkedin": "https://www.linkedin.com/in/quill-brackish-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-quill-brackish"
     },
     {
       "id": "p-mira-cogsworth",
       "name": "Mira Cogsworth",
       "role": "Director, Pretendo Civic Co.",
-      "orgIds": ["o-pretendo-civic"],
+      "orgIds": [
+        "o-pretendo-civic"
+      ],
       "description": "Fictional Director of Customer Success at Pretendo Civic Co. Long history with mid-size city accounts. Travels constantly.",
       "website": "https://example.com/mira-cogsworth",
-      "linkedin": "https://www.linkedin.com/in/mira-cogsworth-fake"
+      "linkedin": "https://www.linkedin.com/in/mira-cogsworth-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-mira-cogsworth"
     },
     {
       "id": "p-felix-underscore",
       "name": "Felix Underscore",
       "role": "Senior Analyst, Faux Foundation",
-      "orgIds": ["o-faux-foundation"],
+      "orgIds": [
+        "o-faux-foundation"
+      ],
       "description": "Fictional senior research analyst. Writes the foundation's annual infrastructure-equity index. Quoted in trade press more than you'd expect.",
       "website": "https://example.com/felix-underscore",
-      "linkedin": "https://www.linkedin.com/in/felix-underscore-fake"
+      "linkedin": "https://www.linkedin.com/in/felix-underscore-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-felix-underscore"
     },
     {
       "id": "p-wren-hashbrown",
       "name": "Wren Hashbrown",
       "role": "Advisor, Imaginary Insights LLC",
-      "orgIds": ["o-imaginary-insights"],
+      "orgIds": [
+        "o-imaginary-insights"
+      ],
       "description": "Fictional senior advisor specializing in procurement strategy. Former state-level CIO. Soft-spoken in meetings, brutal on contracts.",
       "website": "https://example.com/wren-hashbrown",
-      "linkedin": "https://www.linkedin.com/in/wren-hashbrown-fake"
+      "linkedin": "https://www.linkedin.com/in/wren-hashbrown-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-wren-hashbrown"
     },
     {
       "id": "p-tibby-quark",
       "name": "Tibby Quark",
       "role": "Mayor of East Sproutdale",
-      "orgIds": ["o-east-sproutdale"],
+      "orgIds": [
+        "o-east-sproutdale"
+      ],
       "description": "Fictional first-term mayor of East Sproutdale. Background in local journalism. Hosts a monthly office-hours stream.",
       "website": "https://example.com/tibby-quark",
-      "linkedin": "https://www.linkedin.com/in/tibby-quark-fake"
+      "linkedin": "https://www.linkedin.com/in/tibby-quark-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-tibby-quark"
     },
     {
       "id": "p-mo-fizzlebottom",
       "name": "Mo Fizzlebottom",
       "role": "Town Manager, North Tinkertown",
-      "orgIds": ["o-north-tinkertown"],
+      "orgIds": [
+        "o-north-tinkertown"
+      ],
       "description": "Fictional town manager with a fifteen-year tenure. Holds the institutional memory of every roads contract since 2011.",
       "website": "https://example.com/mo-fizzlebottom",
-      "linkedin": "https://www.linkedin.com/in/mo-fizzlebottom-fake"
+      "linkedin": "https://www.linkedin.com/in/mo-fizzlebottom-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-mo-fizzlebottom"
     },
     {
       "id": "p-juno-paradox",
       "name": "Juno Paradox",
       "role": "VP Sales, Demo Dynamics",
-      "orgIds": ["o-demo-dynamics"],
+      "orgIds": [
+        "o-demo-dynamics"
+      ],
       "description": "Fictional VP of Sales. Owns the public-sector pipeline. Closes deals faster when there's a warm intro on the calendar.",
       "website": "https://example.com/juno-paradox",
-      "linkedin": "https://www.linkedin.com/in/juno-paradox-fake"
+      "linkedin": "https://www.linkedin.com/in/juno-paradox-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-juno-paradox"
     },
     {
       "id": "p-otto-bracket",
       "name": "Otto Bracket",
       "role": "Founder, Notional Networks",
-      "orgIds": ["o-notional-networks"],
+      "orgIds": [
+        "o-notional-networks"
+      ],
       "description": "Fictional founder of Notional Networks. Open-source contributor. Speaks at municipal-tech meetups.",
       "website": "https://example.com/otto-bracket",
-      "linkedin": "https://www.linkedin.com/in/otto-bracket-fake"
+      "linkedin": "https://www.linkedin.com/in/otto-bracket-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-otto-bracket"
     },
     {
       "id": "p-roo-stardust",
       "name": "Roo Stardust",
       "role": "Partner, Mockingbird Strategies",
-      "orgIds": ["o-mockingbird-strategies"],
+      "orgIds": [
+        "o-mockingbird-strategies"
+      ],
       "description": "Fictional senior partner specializing in small-town government relations. Knows everyone in towns under 50k.",
       "website": "https://example.com/roo-stardust",
-      "linkedin": "https://www.linkedin.com/in/roo-stardust-fake"
+      "linkedin": "https://www.linkedin.com/in/roo-stardust-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-roo-stardust"
     },
     {
       "id": "p-pip-glomwhistle",
       "name": "Pip Glomwhistle",
       "role": "Procurement Officer, Pixelville",
-      "orgIds": ["o-pixelville"],
+      "orgIds": [
+        "o-pixelville"
+      ],
       "description": "Fictional procurement officer. Owns the RFP queue. Pragmatic about pilots, allergic to multi-year contracts.",
       "website": "https://example.com/pip-glomwhistle",
-      "linkedin": "https://www.linkedin.com/in/pip-glomwhistle-fake"
+      "linkedin": "https://www.linkedin.com/in/pip-glomwhistle-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-pip-glomwhistle"
     },
     {
       "id": "p-cosmo-nibble",
       "name": "Cosmo Nibble",
       "role": "Council Aide, New Whimsy",
-      "orgIds": ["o-new-whimsy"],
+      "orgIds": [
+        "o-new-whimsy"
+      ],
       "description": "Fictional council aide. Drafts memos and shapes which proposals make it onto the agenda.",
       "website": "https://example.com/cosmo-nibble",
-      "linkedin": "https://www.linkedin.com/in/cosmo-nibble-fake"
+      "linkedin": "https://www.linkedin.com/in/cosmo-nibble-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-cosmo-nibble"
     },
     {
       "id": "p-tess-orbit",
       "name": "Tess Orbit",
       "role": "Engagement Lead, Pretendo Civic Co.",
-      "orgIds": ["o-pretendo-civic"],
+      "orgIds": [
+        "o-pretendo-civic"
+      ],
       "description": "Fictional engagement lead. Runs Pretendo's quarterly user-council. Friendly with about half the people on this graph.",
       "website": "https://example.com/tess-orbit",
-      "linkedin": "https://www.linkedin.com/in/tess-orbit-fake"
+      "linkedin": "https://www.linkedin.com/in/tess-orbit-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-tess-orbit"
     },
     {
       "id": "p-dax-marble",
       "name": "Dax Marble",
       "role": "Researcher, Faux Foundation",
-      "orgIds": ["o-faux-foundation"],
+      "orgIds": [
+        "o-faux-foundation"
+      ],
       "description": "Fictional research associate. Specializes in regional infrastructure spending patterns.",
       "website": "https://example.com/dax-marble",
-      "linkedin": "https://www.linkedin.com/in/dax-marble-fake"
+      "linkedin": "https://www.linkedin.com/in/dax-marble-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-dax-marble"
     },
     {
       "id": "p-vivi-zenith",
       "name": "Vivi Zenith",
       "role": "Board Member, Notional Networks",
-      "orgIds": ["o-notional-networks", "o-east-sproutdale"],
+      "orgIds": [
+        "o-notional-networks",
+        "o-east-sproutdale"
+      ],
       "description": "Fictional board member with seats on both Notional Networks and the East Sproutdale civic-data board. Cross-pollinator.",
       "website": "https://example.com/vivi-zenith",
-      "linkedin": "https://www.linkedin.com/in/vivi-zenith-fake"
+      "linkedin": "https://www.linkedin.com/in/vivi-zenith-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-vivi-zenith"
     },
     {
       "id": "p-sage-pebble",
       "name": "Sage Pebble",
       "role": "Consultant, Imaginary Insights LLC",
-      "orgIds": ["o-imaginary-insights"],
+      "orgIds": [
+        "o-imaginary-insights"
+      ],
       "description": "Fictional consultant. Embedded in two municipal modernization projects this year.",
       "website": "https://example.com/sage-pebble",
-      "linkedin": "https://www.linkedin.com/in/sage-pebble-fake"
+      "linkedin": "https://www.linkedin.com/in/sage-pebble-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-sage-pebble"
     },
     {
       "id": "p-rune-quiver",
       "name": "Rune Quiver",
       "role": "Engineer, Demo Dynamics",
-      "orgIds": ["o-demo-dynamics"],
+      "orgIds": [
+        "o-demo-dynamics"
+      ],
       "description": "Fictional staff hardware engineer. Owns the sensor firmware that does not, in fact, sense anything real.",
       "website": "https://example.com/rune-quiver",
-      "linkedin": "https://www.linkedin.com/in/rune-quiver-fake"
+      "linkedin": "https://www.linkedin.com/in/rune-quiver-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-rune-quiver"
     },
     {
       "id": "p-mox-loopy",
       "name": "Mox Loopy",
       "role": "Civic Fellow",
-      "orgIds": ["o-faux-foundation", "o-pixelville"],
+      "orgIds": [
+        "o-faux-foundation",
+        "o-pixelville"
+      ],
       "description": "Fictional civic fellow placed jointly with the Faux Foundation and the City of Pixelville. Bridge between research and ops.",
       "website": "https://example.com/mox-loopy",
-      "linkedin": "https://www.linkedin.com/in/mox-loopy-fake"
+      "linkedin": "https://www.linkedin.com/in/mox-loopy-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-mox-loopy"
     },
     {
       "id": "p-lark-bandit",
       "name": "Lark Bandit",
       "role": "Lobbyist, Mockingbird Strategies",
-      "orgIds": ["o-mockingbird-strategies"],
+      "orgIds": [
+        "o-mockingbird-strategies"
+      ],
       "description": "Fictional registered lobbyist. Has a remarkable contact list and an even more remarkable backlog of unread emails.",
       "website": "https://example.com/lark-bandit",
-      "linkedin": "https://www.linkedin.com/in/lark-bandit-fake"
+      "linkedin": "https://www.linkedin.com/in/lark-bandit-fake",
+      "avatarUrl": "https://api.dicebear.com/9.x/personas/svg?seed=p-lark-bandit"
     }
   ],
   "edges": [
-    { "from": "p-zip-tessellator", "to": "o-pixelville", "kind": "works_at" },
-    { "from": "p-bea-pixelton", "to": "o-pixelville", "kind": "works_at" },
-    { "from": "p-pip-glomwhistle", "to": "o-pixelville", "kind": "works_at" },
-    { "from": "p-mox-loopy", "to": "o-pixelville", "kind": "works_at", "note": "civic fellowship placement" },
-    { "from": "p-quill-brackish", "to": "o-new-whimsy", "kind": "works_at" },
-    { "from": "p-cosmo-nibble", "to": "o-new-whimsy", "kind": "works_at" },
-    { "from": "p-tibby-quark", "to": "o-east-sproutdale", "kind": "works_at" },
-    { "from": "p-mo-fizzlebottom", "to": "o-north-tinkertown", "kind": "works_at" },
-    { "from": "p-mira-cogsworth", "to": "o-pretendo-civic", "kind": "works_at" },
-    { "from": "p-tess-orbit", "to": "o-pretendo-civic", "kind": "works_at" },
-    { "from": "p-felix-underscore", "to": "o-faux-foundation", "kind": "works_at" },
-    { "from": "p-dax-marble", "to": "o-faux-foundation", "kind": "works_at" },
-    { "from": "p-mox-loopy", "to": "o-faux-foundation", "kind": "works_at" },
-    { "from": "p-wren-hashbrown", "to": "o-imaginary-insights", "kind": "works_at" },
-    { "from": "p-sage-pebble", "to": "o-imaginary-insights", "kind": "works_at" },
-    { "from": "p-juno-paradox", "to": "o-demo-dynamics", "kind": "works_at" },
-    { "from": "p-rune-quiver", "to": "o-demo-dynamics", "kind": "works_at" },
-    { "from": "p-otto-bracket", "to": "o-notional-networks", "kind": "works_at" },
-    { "from": "p-vivi-zenith", "to": "o-notional-networks", "kind": "board_of" },
-    { "from": "p-vivi-zenith", "to": "o-east-sproutdale", "kind": "board_of" },
-    { "from": "p-roo-stardust", "to": "o-mockingbird-strategies", "kind": "works_at" },
-    { "from": "p-lark-bandit", "to": "o-mockingbird-strategies", "kind": "works_at" },
-    { "from": "o-pretendo-civic", "to": "o-pixelville", "kind": "donated_to", "note": "civic-tech sponsorship" },
-    { "from": "o-pretendo-civic", "to": "o-new-whimsy", "kind": "donated_to" },
-    { "from": "o-demo-dynamics", "to": "o-east-sproutdale", "kind": "donated_to" },
-    { "from": "o-mockingbird-strategies", "to": "o-north-tinkertown", "kind": "donated_to" },
-    { "from": "p-mira-cogsworth", "to": "p-zip-tessellator", "kind": "knows" },
-    { "from": "p-mira-cogsworth", "to": "p-quill-brackish", "kind": "knows" },
-    { "from": "p-tess-orbit", "to": "p-bea-pixelton", "kind": "knows" },
-    { "from": "p-tess-orbit", "to": "p-cosmo-nibble", "kind": "knows" },
-    { "from": "p-felix-underscore", "to": "p-mira-cogsworth", "kind": "knows" },
-    { "from": "p-felix-underscore", "to": "p-otto-bracket", "kind": "knows" },
-    { "from": "p-dax-marble", "to": "p-mox-loopy", "kind": "knows" },
-    { "from": "p-wren-hashbrown", "to": "p-juno-paradox", "kind": "knows" },
-    { "from": "p-wren-hashbrown", "to": "p-roo-stardust", "kind": "knows" },
-    { "from": "p-sage-pebble", "to": "p-tibby-quark", "kind": "knows" },
-    { "from": "p-juno-paradox", "to": "p-quill-brackish", "kind": "knows" },
-    { "from": "p-otto-bracket", "to": "p-vivi-zenith", "kind": "knows" },
-    { "from": "p-roo-stardust", "to": "p-mo-fizzlebottom", "kind": "knows" },
-    { "from": "p-lark-bandit", "to": "p-mo-fizzlebottom", "kind": "knows" },
-    { "from": "p-lark-bandit", "to": "p-zip-tessellator", "kind": "knows" },
-    { "from": "p-zip-tessellator", "to": "o-faux-foundation", "kind": "attended", "note": "annual gala" },
-    { "from": "p-tibby-quark", "to": "o-faux-foundation", "kind": "attended" },
-    { "from": "p-quill-brackish", "to": "o-pretendo-civic", "kind": "attended" },
-    { "from": "p-mo-fizzlebottom", "to": "o-mockingbird-strategies", "kind": "attended" },
-    { "from": "p-pip-glomwhistle", "to": "o-demo-dynamics", "kind": "attended" },
-    { "from": "p-cosmo-nibble", "to": "o-imaginary-insights", "kind": "attended" },
-    { "from": "p-mira-cogsworth", "to": "p-felix-underscore", "kind": "knows" },
-    { "from": "p-vivi-zenith", "to": "p-tibby-quark", "kind": "knows" },
-    { "from": "p-bea-pixelton", "to": "p-pip-glomwhistle", "kind": "knows" }
+    {
+      "from": "p-zip-tessellator",
+      "to": "o-pixelville",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-bea-pixelton",
+      "to": "o-pixelville",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-pip-glomwhistle",
+      "to": "o-pixelville",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-mox-loopy",
+      "to": "o-pixelville",
+      "kind": "works_at",
+      "note": "civic fellowship placement"
+    },
+    {
+      "from": "p-quill-brackish",
+      "to": "o-new-whimsy",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-cosmo-nibble",
+      "to": "o-new-whimsy",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-tibby-quark",
+      "to": "o-east-sproutdale",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-mo-fizzlebottom",
+      "to": "o-north-tinkertown",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-mira-cogsworth",
+      "to": "o-pretendo-civic",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-tess-orbit",
+      "to": "o-pretendo-civic",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-felix-underscore",
+      "to": "o-faux-foundation",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-dax-marble",
+      "to": "o-faux-foundation",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-mox-loopy",
+      "to": "o-faux-foundation",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-wren-hashbrown",
+      "to": "o-imaginary-insights",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-sage-pebble",
+      "to": "o-imaginary-insights",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-juno-paradox",
+      "to": "o-demo-dynamics",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-rune-quiver",
+      "to": "o-demo-dynamics",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-otto-bracket",
+      "to": "o-notional-networks",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-vivi-zenith",
+      "to": "o-notional-networks",
+      "kind": "board_of"
+    },
+    {
+      "from": "p-vivi-zenith",
+      "to": "o-east-sproutdale",
+      "kind": "board_of"
+    },
+    {
+      "from": "p-roo-stardust",
+      "to": "o-mockingbird-strategies",
+      "kind": "works_at"
+    },
+    {
+      "from": "p-lark-bandit",
+      "to": "o-mockingbird-strategies",
+      "kind": "works_at"
+    },
+    {
+      "from": "o-pretendo-civic",
+      "to": "o-pixelville",
+      "kind": "donated_to",
+      "note": "civic-tech sponsorship"
+    },
+    {
+      "from": "o-pretendo-civic",
+      "to": "o-new-whimsy",
+      "kind": "donated_to"
+    },
+    {
+      "from": "o-demo-dynamics",
+      "to": "o-east-sproutdale",
+      "kind": "donated_to"
+    },
+    {
+      "from": "o-mockingbird-strategies",
+      "to": "o-north-tinkertown",
+      "kind": "donated_to"
+    },
+    {
+      "from": "p-mira-cogsworth",
+      "to": "p-zip-tessellator",
+      "kind": "knows"
+    },
+    {
+      "from": "p-mira-cogsworth",
+      "to": "p-quill-brackish",
+      "kind": "knows"
+    },
+    {
+      "from": "p-tess-orbit",
+      "to": "p-bea-pixelton",
+      "kind": "knows"
+    },
+    {
+      "from": "p-tess-orbit",
+      "to": "p-cosmo-nibble",
+      "kind": "knows"
+    },
+    {
+      "from": "p-felix-underscore",
+      "to": "p-mira-cogsworth",
+      "kind": "knows"
+    },
+    {
+      "from": "p-felix-underscore",
+      "to": "p-otto-bracket",
+      "kind": "knows"
+    },
+    {
+      "from": "p-dax-marble",
+      "to": "p-mox-loopy",
+      "kind": "knows"
+    },
+    {
+      "from": "p-wren-hashbrown",
+      "to": "p-juno-paradox",
+      "kind": "knows"
+    },
+    {
+      "from": "p-wren-hashbrown",
+      "to": "p-roo-stardust",
+      "kind": "knows"
+    },
+    {
+      "from": "p-sage-pebble",
+      "to": "p-tibby-quark",
+      "kind": "knows"
+    },
+    {
+      "from": "p-juno-paradox",
+      "to": "p-quill-brackish",
+      "kind": "knows"
+    },
+    {
+      "from": "p-otto-bracket",
+      "to": "p-vivi-zenith",
+      "kind": "knows"
+    },
+    {
+      "from": "p-roo-stardust",
+      "to": "p-mo-fizzlebottom",
+      "kind": "knows"
+    },
+    {
+      "from": "p-lark-bandit",
+      "to": "p-mo-fizzlebottom",
+      "kind": "knows"
+    },
+    {
+      "from": "p-lark-bandit",
+      "to": "p-zip-tessellator",
+      "kind": "knows"
+    },
+    {
+      "from": "p-zip-tessellator",
+      "to": "o-faux-foundation",
+      "kind": "attended",
+      "note": "annual gala"
+    },
+    {
+      "from": "p-tibby-quark",
+      "to": "o-faux-foundation",
+      "kind": "attended"
+    },
+    {
+      "from": "p-quill-brackish",
+      "to": "o-pretendo-civic",
+      "kind": "attended"
+    },
+    {
+      "from": "p-mo-fizzlebottom",
+      "to": "o-mockingbird-strategies",
+      "kind": "attended"
+    },
+    {
+      "from": "p-pip-glomwhistle",
+      "to": "o-demo-dynamics",
+      "kind": "attended"
+    },
+    {
+      "from": "p-cosmo-nibble",
+      "to": "o-imaginary-insights",
+      "kind": "attended"
+    },
+    {
+      "from": "p-mira-cogsworth",
+      "to": "p-felix-underscore",
+      "kind": "knows"
+    },
+    {
+      "from": "p-vivi-zenith",
+      "to": "p-tibby-quark",
+      "kind": "knows"
+    },
+    {
+      "from": "p-bea-pixelton",
+      "to": "p-pip-glomwhistle",
+      "kind": "knows"
+    }
   ]
 }

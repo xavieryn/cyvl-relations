@@ -15,6 +15,7 @@ export type Person = {
   description?: string;
   website?: string;
   linkedin?: string;
+  avatarUrl?: string;
 };
 
 export type Organization = {
@@ -24,6 +25,7 @@ export type Organization = {
   description?: string;
   website?: string;
   linkedin?: string;
+  avatarUrl?: string;
 };
 
 export type Edge = {

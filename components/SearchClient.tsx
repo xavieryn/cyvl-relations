@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import type { Entity, Organization } from '@/lib/types';
+import Avatar from '@/components/Avatar';
 
 type Props = {
   entities: Entity[];
@@ -18,6 +19,11 @@ function hrefFor(e: Entity): string {
   return e.entityKind === 'person' ? `/people/${e.id}` : `/orgs/${e.id}`;
 }
 
+const HOVER: Record<Entity['entityKind'], string> = {
+  person: 'hover:border-[#1b79c5]/50 hover:shadow-[0_8px_24px_-12px_rgba(27,121,197,0.6)]',
+  org: 'hover:border-[#ff9e2c]/50 hover:shadow-[0_8px_24px_-12px_rgba(255,158,44,0.6)]',
+};
+
 export default function SearchClient({ entities, orgs }: Props) {
   const [query, setQuery] = useState('');
   const [orgFilter, setOrgFilter] = useState<string>('');
@@ -27,7 +33,6 @@ export default function SearchClient({ entities, orgs }: Props) {
 
     let filtered = entities;
     if (orgFilter) {
-      // Narrow to people in that org + the org itself
       filtered = filtered.filter((e) => {
         if (e.entityKind === 'org') return e.id === orgFilter;
         return e.orgIds.includes(orgFilter);
@@ -55,7 +60,7 @@ export default function SearchClient({ entities, orgs }: Props) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         autoFocus
-        className="w-full rounded-md border border-white/20 bg-white/[0.04] px-4 py-3 text-base text-white outline-none placeholder:text-white/40 focus:border-white/40"
+        className="w-full rounded-lg border border-white/20 bg-white/[0.04] px-4 py-3 text-base text-white outline-none placeholder:text-white/40 transition focus:border-[#daff00]/60 focus:bg-white/[0.06]"
       />
 
       <div className="mt-3 flex flex-wrap items-center gap-3">
@@ -96,10 +101,21 @@ export default function SearchClient({ entities, orgs }: Props) {
           <Link
             key={`${e.entityKind}-${e.id}`}
             href={hrefFor(e)}
-            className="block rounded-md border border-white/10 bg-white/[0.03] px-4 py-3 transition hover:border-white/30 hover:bg-white/[0.07]"
+            className={`group flex items-center gap-3 rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 transition duration-200 hover:-translate-y-0.5 hover:bg-white/[0.06] ${HOVER[e.entityKind]}`}
           >
-            <div className="font-medium text-white">{e.name}</div>
-            <div className="text-sm text-white/60">{subtitleFor(e)}</div>
+            <Avatar
+              src={e.avatarUrl}
+              name={e.name}
+              kind={e.entityKind}
+              size={40}
+            />
+            <div className="min-w-0 flex-1">
+              <div className="truncate font-medium text-white">{e.name}</div>
+              <div className="truncate text-sm text-white/55">{subtitleFor(e)}</div>
+            </div>
+            <span className="text-white/30 transition group-hover:translate-x-0.5 group-hover:text-white/60">
+              →
+            </span>
           </Link>
         ))}
       </div>

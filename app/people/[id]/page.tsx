@@ -8,6 +8,8 @@ import {
 import EntityLink from '@/components/EntityLink';
 import EntityLinks from '@/components/EntityLinks';
 import Badge from '@/components/Badge';
+import Avatar from '@/components/Avatar';
+import EdgeChip from '@/components/EdgeChip';
 
 export const dynamicParams = false;
 
@@ -26,72 +28,80 @@ export default async function PersonPage({ params }: PageProps) {
   const connections = neighbors(person.id);
 
   return (
-    <main className="relative z-10 mx-auto w-full max-w-5xl px-6 py-12 text-white">
-      <div className="border-l-2 border-[#1b79c5] pl-5">
-        <Badge kind="person" label="Person" />
-        <h1 className="mt-3 text-4xl font-semibold tracking-tight">{person.name}</h1>
-        {person.role && (
-          <p className="mt-2 text-white/70">{person.role}</p>
-        )}
+    <main className="relative z-10">
+      <div className="relative overflow-hidden border-b border-white/5">
+        <div className="pointer-events-none absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#1b79c5]/20 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-32 right-0 h-72 w-72 rounded-full bg-[#1b79c5]/10 blur-3xl" />
+        <div className="relative mx-auto w-full max-w-5xl px-6 py-12 text-white">
+          <div className="flex items-start gap-5">
+            <Avatar src={person.avatarUrl} name={person.name} kind="person" size={88} />
+            <div className="min-w-0">
+              <Badge kind="person" label="Person" />
+              <h1 className="mt-3 text-4xl font-semibold tracking-tight">
+                {person.name}
+              </h1>
+              {person.role && (
+                <p className="mt-2 text-white/70">{person.role}</p>
+              )}
+            </div>
+          </div>
+
+          {person.description && (
+            <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/80">
+              {person.description}
+            </p>
+          )}
+
+          <EntityLinks website={person.website} linkedin={person.linkedin} />
+        </div>
       </div>
 
-      {person.description && (
-        <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/80">
-          {person.description}
-        </p>
-      )}
+      <div className="mx-auto w-full max-w-5xl px-6 py-10 text-white">
+        {orgs.length > 0 && (
+          <section className="mb-10">
+            <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white/50">
+              Affiliations
+            </h2>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {orgs.map((o) => (
+                <EntityLink
+                  key={o.id}
+                  id={o.id}
+                  name={o.name}
+                  kind="org"
+                  subtitle={o.kind}
+                />
+              ))}
+            </div>
+          </section>
+        )}
 
-      <EntityLinks website={person.website} linkedin={person.linkedin} />
-
-      {orgs.length > 0 && (
-        <section className="mt-12">
-          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white/50">
-            Affiliations
-          </h2>
-          <div className="grid gap-2 sm:grid-cols-2">
-            {orgs.map((o) => (
-              <EntityLink key={o.id} id={o.id} name={o.name} kind="org" subtitle={o.kind} />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {connections.length > 0 && (
-        <section className="mt-10">
-          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white/50">
-            Connections
-          </h2>
-          <div className="grid gap-2 sm:grid-cols-2">
-            {connections.map(({ otherId, edge }) => {
-              const op = getPerson(otherId);
-              const oo = getOrg(otherId);
-              if (op) {
+        {connections.length > 0 && (
+          <section>
+            <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-white/50">
+              Connections <span className="ml-1 text-white/30">({connections.length})</span>
+            </h2>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {connections.map(({ otherId, edge }) => {
+                const op = getPerson(otherId);
+                const oo = getOrg(otherId);
+                const target = op ?? oo;
+                if (!target) return null;
                 return (
                   <EntityLink
                     key={`${otherId}-${edge.kind}`}
-                    id={op.id}
-                    name={op.name}
-                    kind="person"
-                    subtitle={`${edge.kind.replace('_', ' ')}${edge.note ? ` — ${edge.note}` : ''}`}
+                    id={target.id}
+                    name={target.name}
+                    kind={op ? 'person' : 'org'}
+                    subtitle={edge.note ?? (op?.role ?? (oo ? oo.kind : ''))}
+                    badge={<EdgeChip kind={edge.kind} />}
                   />
                 );
-              }
-              if (oo) {
-                return (
-                  <EntityLink
-                    key={`${otherId}-${edge.kind}`}
-                    id={oo.id}
-                    name={oo.name}
-                    kind="org"
-                    subtitle={`${edge.kind.replace('_', ' ')}${edge.note ? ` — ${edge.note}` : ''}`}
-                  />
-                );
-              }
-              return null;
-            })}
-          </div>
-        </section>
-      )}
+              })}
+            </div>
+          </section>
+        )}
+      </div>
     </main>
   );
 }
